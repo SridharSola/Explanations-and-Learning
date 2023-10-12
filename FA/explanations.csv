@@ -1,0 +1,1571 @@
+Episode,Plan,Why Actions?,Actions,Why Not?,Tree
+0,"['occurs(move(learner,8,14),1)', 'occurs(move(learner,7,14),2)', 'occurs(move(learner,6,14),3)']",[[]],"['shoot(learner,attacker1)']","[[[], ['-holds(in_range(learner,attacker1),0)']]]","belief0 : 
+['-occurs(shoot(learner,attacker1),0)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker1),0)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,8,14),1)', 'occurs(move(learner,7,14),2)', 'occurs(move(learner,6,14),3)']","[[], [['holds(in(learner,9,14),1),-next_to(6,14,9,14)'], 'holds(in(learner,6,14),3)', 3]]","['shoot(learner,attacker1)', 'shoot(learner,attacker2)']","[[[], ['-holds(in_range(learner,attacker1),0)']], [[], ['-holds(in_range(learner,attacker2),1)']]]","belief0 : 
+['-occurs(shoot(learner,attacker2),1)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker2),1)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,8,14),1)', 'occurs(move(learner,7,14),2)', 'occurs(move(learner,6,14),3)']","[[], [['holds(in(learner,9,14),1),-next_to(6,14,9,14)'], 'holds(in(learner,6,14),3)', 3], [['holds(in(learner,8,14),2),-next_to(6,14,8,14)'], 'holds(in(learner,6,14),3)', 3]]","['shoot(learner,attacker1)', 'shoot(learner,attacker2)', 'move(learner,5,14)']","[[[], ['-holds(in_range(learner,attacker1),0)']], [[], ['-holds(in_range(learner,attacker2),1)']], [[], ['holds(in(learner,8,14),2),-next_to(5,14,8,14)']]]","belief0 : 
+['-occurs(move(learner,5,14),2)']
+None
+"
+0,"['occurs(move(learner,5,14),4)', 'occurs(move(learner,4,14),5)']",[[]],"['shoot(learner,attacker2)']","[[[], []]]","belief0 : 
+['-occurs(shoot(learner,attacker2),0)']
+None
+"
+0,"['occurs(move(learner,5,14),4)', 'occurs(move(learner,4,14),5)']","[[], [['holds(in(learner,6,14),4),-next_to(4,14,6,14)'], 'holds(in(learner,4,14),5)', 5]]","['shoot(learner,attacker2)', 'move(learner,3,6)']","[[[], []], [[], []]]","belief0 : 
+['-occurs(move(learner,3,6),1)']
+None
+"
+0,"['occurs(shoot(learner,attacker1),6)']",[[]],"['move(learner,19,15)']","[[[], []]]","belief0 : 
+['-occurs(move(learner,19,15),0)']
+None
+"
+0,"['occurs(shoot(learner,attacker1),7)']",[[]],"['rotate(learner,south_west2)']",[[[]]],"belief0 : 
+['-occurs(rotate(learner,south_west2),0)']
+None
+"
+0,"['occurs(shoot(learner,attacker2),8)']",[[]],"['shoot(learner,attacker2)']","[[[], []]]","belief0 : 
+['-occurs(shoot(learner,attacker2),0)']
+None
+"
+0,"['occurs(move(learner,11,14),1)', 'occurs(move(learner,12,14),2)', 'occurs(move(learner,13,14),3)']","[[['holds(in(learner,10,14),1),-next_to(13,14,10,14)'], 'holds(in(learner,13,14),3)', 3]]","['move(learner,19,0)']","[[[], ['holds(in(learner,10,14),1),-next_to(19,0,10,14)']]]","belief0 : 
+['-occurs(move(learner,19,0),1)']
+None
+"
+0,"['occurs(move(learner,11,14),1)', 'occurs(move(learner,12,14),2)', 'occurs(move(learner,13,14),3)']","[[['holds(in(learner,10,14),1),-next_to(13,14,10,14)'], 'holds(in(learner,13,14),3)', 3], [['holds(in(learner,11,14),2),-next_to(13,14,11,14)'], 'holds(in(learner,13,14),3)', 3]]","['move(learner,19,0)', 'shoot(learner,attacker3)']","[[[], ['holds(in(learner,10,14),1),-next_to(19,0,10,14)']], [[], ['-holds(in_range(learner,attacker3),2)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),2)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),2)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,11,14),1)', 'occurs(move(learner,12,14),2)', 'occurs(move(learner,13,14),3)']","[[['holds(in(learner,10,14),1),-next_to(13,14,10,14)'], 'holds(in(learner,13,14),3)', 3], [['holds(in(learner,11,14),2),-next_to(13,14,11,14)'], 'holds(in(learner,13,14),3)', 3], []]","['move(learner,19,0)', 'shoot(learner,attacker3)', 'rotate(learner,north)']","[[[], ['holds(in(learner,10,14),1),-next_to(19,0,10,14)']], [[], ['-holds(in_range(learner,attacker3),2)']], [['holds(face(learner,south),3),-next_dir(north,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,north),3)']
+None
+belief1 : 
+[('holds(face(learner,south),3)', '-next_dir(north,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+0,"['occurs(move(learner,12,14),1)', 'occurs(move(learner,13,14),2)', 'occurs(move(learner,14,14),3)']","[[['holds(in(learner,11,14),1),-next_to(14,14,11,14)'], 'holds(in(learner,14,14),3)', 3]]","['shoot(learner,attacker2)']","[[[], ['-holds(in_range(learner,attacker2),1)']]]","belief0 : 
+['-occurs(shoot(learner,attacker2),1)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker2),1)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,12,14),1)', 'occurs(move(learner,13,14),2)', 'occurs(move(learner,14,14),3)']","[[['holds(in(learner,11,14),1),-next_to(14,14,11,14)'], 'holds(in(learner,14,14),3)', 3], [['holds(in(learner,12,14),2),-next_to(14,14,12,14)'], 'holds(in(learner,14,14),3)', 3]]","['shoot(learner,attacker2)', 'rotate(learner,north_west2)']","[[[], ['-holds(in_range(learner,attacker2),1)']], [['holds(face(learner,south),2),-next_dir(north_west2,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,north_west2),2)']
+None
+belief1 : 
+[('holds(face(learner,south),2)', '-next_dir(north_west2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+0,"['occurs(move(learner,12,14),1)', 'occurs(move(learner,13,14),2)', 'occurs(move(learner,14,14),3)']","[[['holds(in(learner,11,14),1),-next_to(14,14,11,14)'], 'holds(in(learner,14,14),3)', 3], [['holds(in(learner,12,14),2),-next_to(14,14,12,14)'], 'holds(in(learner,14,14),3)', 3], []]","['shoot(learner,attacker2)', 'rotate(learner,north_west2)', 'move(learner,16,14)']","[[[], ['-holds(in_range(learner,attacker2),1)']], [['holds(face(learner,south),2),-next_dir(north_west2,north_east)']], [[], ['holds(in(learner,13,14),3),-next_to(16,14,13,14)']]]","belief0 : 
+['-occurs(move(learner,16,14),3)']
+None
+"
+0,"['occurs(move(learner,9,14),1)', 'occurs(move(learner,8,14),2)', 'occurs(move(learner,7,14),3)']","[[['holds(in(learner,9,15),1),-next_to(7,14,9,15)'], 'holds(in(learner,7,14),3)', 3]]","['shoot(learner,attacker2)']","[[[], ['-holds(in_range(learner,attacker2),1)']]]","belief0 : 
+['-occurs(shoot(learner,attacker2),1)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker2),1)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,9,14),1)', 'occurs(move(learner,8,14),2)', 'occurs(move(learner,7,14),3)']","[[['holds(in(learner,9,15),1),-next_to(7,14,9,15)'], 'holds(in(learner,7,14),3)', 3], [['holds(in(learner,9,14),2),-next_to(7,14,9,14)'], 'holds(in(learner,7,14),3)', 3]]","['shoot(learner,attacker2)', 'rotate(learner,east)']","[[[], ['-holds(in_range(learner,attacker2),1)']], [['holds(face(learner,south),2),-next_dir(east,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,east),2)']
+None
+belief1 : 
+[('holds(face(learner,south),2)', '-next_dir(east,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+0,"['occurs(move(learner,9,14),1)', 'occurs(move(learner,8,14),2)', 'occurs(move(learner,7,14),3)']","[[['holds(in(learner,9,15),1),-next_to(7,14,9,15)'], 'holds(in(learner,7,14),3)', 3], [['holds(in(learner,9,14),2),-next_to(7,14,9,14)'], 'holds(in(learner,7,14),3)', 3], []]","['shoot(learner,attacker2)', 'rotate(learner,east)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker2),1)']], [['holds(face(learner,south),2),-next_dir(east,north_east)']], [[], ['-holds(in_range(learner,attacker3),3)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),3)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),3)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,9,14),1)', 'occurs(move(learner,8,14),2)', 'occurs(move(learner,7,14),3)']","[[['holds(in(learner,9,15),1),-next_to(7,14,9,15)'], 'holds(in(learner,7,14),3)', 3]]","['rotate(learner,south_east2)']","[[['holds(face(learner,south),1),-next_dir(south_east2,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south_east2),1)']
+None
+belief1 : 
+[('holds(face(learner,south),1)', '-next_dir(south_east2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+0,"['occurs(move(learner,9,14),1)', 'occurs(move(learner,8,14),2)', 'occurs(move(learner,7,14),3)']","[[['holds(in(learner,9,15),1),-next_to(7,14,9,15)'], 'holds(in(learner,7,14),3)', 3], [['holds(in(learner,9,14),2),-next_to(7,14,9,14)'], 'holds(in(learner,7,14),3)', 3]]","['rotate(learner,south_east2)', 'shoot(learner,attacker3)']","[[['holds(face(learner,south),1),-next_dir(south_east2,north_east)']], [[], ['-holds(in_range(learner,attacker3),2)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),2)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),2)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,9,14),1)', 'occurs(move(learner,8,14),2)', 'occurs(move(learner,7,14),3)']","[[['holds(in(learner,9,15),1),-next_to(7,14,9,15)'], 'holds(in(learner,7,14),3)', 3], [['holds(in(learner,9,14),2),-next_to(7,14,9,14)'], 'holds(in(learner,7,14),3)', 3], []]","['rotate(learner,south_east2)', 'shoot(learner,attacker3)', 'shoot(learner,attacker1)']","[[['holds(face(learner,south),1),-next_dir(south_east2,north_east)']], [[], ['-holds(in_range(learner,attacker3),2)']], [[], ['-holds(in_range(learner,attacker1),3)']]]","belief0 : 
+['-occurs(shoot(learner,attacker1),3)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker1),3)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,7,13),4)', 'occurs(move(learner,6,13),5)', 'occurs(move(learner,5,13),6)']","[[['holds(in(learner,8,13),4),-next_to(5,13,8,13)'], 'holds(in(learner,5,13),6)', 6]]","['move(learner,0,12)']","[[[], ['holds(in(learner,8,13),4),-next_to(0,12,8,13)']]]","belief0 : 
+['-occurs(move(learner,0,12),4)']
+None
+"
+0,"['occurs(move(learner,7,13),4)', 'occurs(move(learner,6,13),5)', 'occurs(move(learner,5,13),6)']","[[['holds(in(learner,8,13),4),-next_to(5,13,8,13)'], 'holds(in(learner,5,13),6)', 6], [['holds(in(learner,7,13),5),-next_to(5,13,7,13)'], 'holds(in(learner,5,13),6)', 6]]","['move(learner,0,12)', 'rotate(learner,south)']","[[[], ['holds(in(learner,8,13),4),-next_to(0,12,8,13)']], [['holds(face(learner,south),5),-next_dir(south,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south),5)']
+None
+belief1 : 
+[('holds(face(learner,south),5)', '-next_dir(south,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+0,"['occurs(move(learner,7,13),4)', 'occurs(move(learner,6,13),5)', 'occurs(move(learner,5,13),6)']","[[['holds(in(learner,8,13),4),-next_to(5,13,8,13)'], 'holds(in(learner,5,13),6)', 6], [['holds(in(learner,7,13),5),-next_to(5,13,7,13)'], 'holds(in(learner,5,13),6)', 6], []]","['move(learner,0,12)', 'rotate(learner,south)', 'rotate(learner,west)']","[[[], ['holds(in(learner,8,13),4),-next_to(0,12,8,13)']], [['holds(face(learner,south),5),-next_dir(south,north_east)']], [['holds(face(learner,south),6),-next_dir(west,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,west),6)']
+None
+belief1 : 
+[('holds(face(learner,south),6)', '-next_dir(west,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+0,"['occurs(move(learner,4,13),7)']",[[]],"['rotate(learner,north_west)']","[[['holds(face(learner,south),7),-next_dir(north_west,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,north_west),7)']
+None
+belief1 : 
+[('holds(face(learner,south),7)', '-next_dir(north_west,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+0,"['occurs(move(learner,5,13),8)', 'occurs(move(learner,6,13),9)', 'occurs(move(learner,7,13),10)']","[[['holds(in(learner,4,13),8),-next_to(7,13,4,13)'], 'holds(in(learner,7,13),10)', 10]]","['rotate(learner,north_west)']","[[['holds(face(learner,south),8),-next_dir(north_west,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,north_west),8)']
+None
+belief1 : 
+[('holds(face(learner,south),8)', '-next_dir(north_west,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+0,"['occurs(move(learner,5,13),8)', 'occurs(move(learner,6,13),9)', 'occurs(move(learner,7,13),10)']","[[['holds(in(learner,4,13),8),-next_to(7,13,4,13)'], 'holds(in(learner,7,13),10)', 10], [['holds(in(learner,5,13),9),-next_to(7,13,5,13)'], 'holds(in(learner,7,13),10)', 10]]","['rotate(learner,north_west)', 'rotate(learner,south)']","[[['holds(face(learner,south),8),-next_dir(north_west,north_east)']], [['holds(face(learner,south),9),-next_dir(south,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south),9)']
+None
+belief1 : 
+[('holds(face(learner,south),9)', '-next_dir(south,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+0,"['occurs(move(learner,5,13),8)', 'occurs(move(learner,6,13),9)', 'occurs(move(learner,7,13),10)']","[[['holds(in(learner,4,13),8),-next_to(7,13,4,13)'], 'holds(in(learner,7,13),10)', 10], [['holds(in(learner,5,13),9),-next_to(7,13,5,13)'], 'holds(in(learner,7,13),10)', 10], []]","['rotate(learner,north_west)', 'rotate(learner,south)', 'rotate(learner,north_east2)']","[[['holds(face(learner,south),8),-next_dir(north_west,north_east)']], [['holds(face(learner,south),9),-next_dir(south,north_east)']], [['holds(face(learner,south),10),-next_dir(north_east2,south)']]]","belief0 : 
+['-occurs(rotate(learner,north_east2),10)']
+None
+belief1 : 
+[('holds(face(learner,south),10)', '-next_dir(north_east2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+1,"['occurs(move(learner,10,14),1)', 'occurs(move(learner,11,14),2)', 'occurs(move(learner,12,14),3)']","[[['holds(in(learner,10,15),1),-next_to(12,14,10,15)'], 'holds(in(learner,12,14),3)', 3]]","['move(learner,8,13)']","[[[], ['holds(in(learner,10,15),1),-next_to(8,13,10,15)']]]","belief0 : 
+['-occurs(move(learner,8,13),1)']
+None
+"
+1,"['occurs(move(learner,10,14),1)', 'occurs(move(learner,11,14),2)', 'occurs(move(learner,12,14),3)']","[[['holds(in(learner,10,15),1),-next_to(12,14,10,15)'], 'holds(in(learner,12,14),3)', 3], [['holds(in(learner,10,14),2),-next_to(12,14,10,14)'], 'holds(in(learner,12,14),3)', 3]]","['move(learner,8,13)', 'shoot(learner,attacker3)']","[[[], ['holds(in(learner,10,15),1),-next_to(8,13,10,15)']], [[], ['-holds(in_range(learner,attacker3),2)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),2)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),2)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+1,"['occurs(move(learner,10,14),1)', 'occurs(move(learner,11,14),2)', 'occurs(move(learner,12,14),3)']","[[['holds(in(learner,10,15),1),-next_to(12,14,10,15)'], 'holds(in(learner,12,14),3)', 3], [['holds(in(learner,10,14),2),-next_to(12,14,10,14)'], 'holds(in(learner,12,14),3)', 3], []]","['move(learner,8,13)', 'shoot(learner,attacker3)', 'shoot(learner,attacker1)']","[[[], ['holds(in(learner,10,15),1),-next_to(8,13,10,15)']], [[], ['-holds(in_range(learner,attacker3),2)']], [[], ['-holds(in_range(learner,attacker1),3)']]]","belief0 : 
+['-occurs(shoot(learner,attacker1),3)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker1),3)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+1,"['occurs(move(learner,12,14),4)', 'occurs(move(learner,13,14),5)', 'occurs(move(learner,14,14),6)']","[[['holds(in(learner,12,15),4),-next_to(14,14,12,15)'], 'holds(in(learner,14,14),6)', 6]]","['rotate(learner,north1)']","[[['holds(face(learner,south),4),-next_dir(north1,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,north1),4)']
+None
+belief1 : 
+[('holds(face(learner,south),4)', '-next_dir(north1,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+1,"['occurs(move(learner,12,14),4)', 'occurs(move(learner,13,14),5)', 'occurs(move(learner,14,14),6)']","[[['holds(in(learner,12,15),4),-next_to(14,14,12,15)'], 'holds(in(learner,14,14),6)', 6], [['holds(in(learner,12,14),5),-next_to(14,14,12,14)'], 'holds(in(learner,14,14),6)', 6]]","['rotate(learner,north1)', 'rotate(learner,north)']","[[['holds(face(learner,south),4),-next_dir(north1,north_east)']], [['holds(face(learner,south),5),-next_dir(north,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,north),5)']
+None
+belief1 : 
+[('holds(face(learner,south),5)', '-next_dir(north,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+1,"['occurs(move(learner,12,14),4)', 'occurs(move(learner,13,14),5)', 'occurs(move(learner,14,14),6)']","[[['holds(in(learner,12,15),4),-next_to(14,14,12,15)'], 'holds(in(learner,14,14),6)', 6], [['holds(in(learner,12,14),5),-next_to(14,14,12,14)'], 'holds(in(learner,14,14),6)', 6], []]","['rotate(learner,north1)', 'rotate(learner,north)', 'shoot(learner,attacker2)']","[[['holds(face(learner,south),4),-next_dir(north1,north_east)']], [['holds(face(learner,south),5),-next_dir(north,north_east)']], [[], ['-holds(in_range(learner,attacker2),6)']]]","belief0 : 
+['-occurs(shoot(learner,attacker2),6)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker2),6)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+1,"['occurs(move(learner,15,14),7)']",[[]],"['move(learner,3,9)']","[[[], ['holds(in(learner,14,14),7),-next_to(3,9,14,14)']]]","belief0 : 
+['-occurs(move(learner,3,9),7)']
+None
+"
+1,"['occurs(shoot(learner,attacker3),8)']",[[]],"['move(learner,17,8)']","[[[], ['holds(in(learner,15,14),8),-next_to(17,8,15,14)']]]","belief0 : 
+['-occurs(move(learner,17,8),8)']
+None
+"
+2,"['occurs(move(learner,8,14),1)', 'occurs(move(learner,7,14),2)', 'occurs(move(learner,6,14),3)']","[[['holds(in(learner,9,14),1),-next_to(6,14,9,14)'], 'holds(in(learner,6,14),3)', 3]]","['rotate(learner,south_east1)']","[[['holds(face(learner,south),1),-next_dir(south_east1,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south_east1),1)']
+None
+belief1 : 
+[('holds(face(learner,south),1)', '-next_dir(south_east1,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+2,"['occurs(move(learner,8,14),1)', 'occurs(move(learner,7,14),2)', 'occurs(move(learner,6,14),3)']","[[['holds(in(learner,9,14),1),-next_to(6,14,9,14)'], 'holds(in(learner,6,14),3)', 3], [['holds(in(learner,8,14),2),-next_to(6,14,8,14)'], 'holds(in(learner,6,14),3)', 3]]","['rotate(learner,south_east1)', 'move(learner,7,1)']","[[['holds(face(learner,south),1),-next_dir(south_east1,north_east)']], [[], ['holds(in(learner,8,14),2),-next_to(7,1,8,14)']]]","belief0 : 
+['-occurs(move(learner,7,1),2)']
+None
+"
+2,"['occurs(move(learner,8,14),1)', 'occurs(move(learner,7,14),2)', 'occurs(move(learner,6,14),3)']","[[['holds(in(learner,9,14),1),-next_to(6,14,9,14)'], 'holds(in(learner,6,14),3)', 3], [['holds(in(learner,8,14),2),-next_to(6,14,8,14)'], 'holds(in(learner,6,14),3)', 3], []]","['rotate(learner,south_east1)', 'move(learner,7,1)', 'shoot(learner,attacker3)']","[[['holds(face(learner,south),1),-next_dir(south_east1,north_east)']], [[], ['holds(in(learner,8,14),2),-next_to(7,1,8,14)']], [[], ['-holds(in_range(learner,attacker3),3)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),3)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),3)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,10,14),1)', 'occurs(move(learner,11,14),2)', 'occurs(move(learner,12,14),3)']","[[['holds(in(learner,10,15),1),-next_to(12,14,10,15)'], 'holds(in(learner,12,14),3)', 3]]","['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),1)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),1)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),1)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,10,14),1)', 'occurs(move(learner,11,14),2)', 'occurs(move(learner,12,14),3)']","[[['holds(in(learner,10,15),1),-next_to(12,14,10,15)'], 'holds(in(learner,12,14),3)', 3], [['holds(in(learner,10,14),2),-next_to(12,14,10,14)'], 'holds(in(learner,12,14),3)', 3]]","['shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),1)']], [[], ['-holds(in_range(learner,attacker3),2)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),2)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),2)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,10,14),1)', 'occurs(move(learner,11,14),2)', 'occurs(move(learner,12,14),3)']","[[['holds(in(learner,10,15),1),-next_to(12,14,10,15)'], 'holds(in(learner,12,14),3)', 3], [['holds(in(learner,10,14),2),-next_to(12,14,10,14)'], 'holds(in(learner,12,14),3)', 3], []]","['shoot(learner,attacker3)', 'shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),1)']], [[], ['-holds(in_range(learner,attacker3),2)']], [[], ['-holds(in_range(learner,attacker3),3)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),3)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),3)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,8,14),1)', 'occurs(move(learner,7,14),2)', 'occurs(move(learner,6,14),3)']","[[['holds(in(learner,9,14),1),-next_to(6,14,9,14)'], 'holds(in(learner,6,14),3)', 3]]","['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),1)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),1)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),1)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,8,14),1)', 'occurs(move(learner,7,14),2)', 'occurs(move(learner,6,14),3)']","[[['holds(in(learner,9,14),1),-next_to(6,14,9,14)'], 'holds(in(learner,6,14),3)', 3], [['holds(in(learner,8,14),2),-next_to(6,14,8,14)'], 'holds(in(learner,6,14),3)', 3]]","['shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),1)']], [[], ['-holds(in_range(learner,attacker3),2)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),2)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),2)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,8,14),1)', 'occurs(move(learner,7,14),2)', 'occurs(move(learner,6,14),3)']","[[['holds(in(learner,9,14),1),-next_to(6,14,9,14)'], 'holds(in(learner,6,14),3)', 3], [['holds(in(learner,8,14),2),-next_to(6,14,8,14)'], 'holds(in(learner,6,14),3)', 3], []]","['shoot(learner,attacker3)', 'shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),1)']], [[], ['-holds(in_range(learner,attacker3),2)']], [[], ['-holds(in_range(learner,attacker3),3)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),3)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),3)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,5,13),4)', 'occurs(move(learner,4,13),5)']","[[['holds(in(learner,6,13),4),-next_to(4,13,6,13)'], 'holds(in(learner,4,13),5)', 5]]","['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),4)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),4)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),4)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,5,13),4)', 'occurs(move(learner,4,13),5)']","[[['holds(in(learner,6,13),4),-next_to(4,13,6,13)'], 'holds(in(learner,4,13),5)', 5], []]","['shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),4)']], [[], ['-holds(in_range(learner,attacker3),5)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),5)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),5)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,3,12),6)']",[[]],"['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),6)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),6)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),6)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,2,12),7)']",[[]],"['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),7)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),7)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),7)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,10,14),1)', 'occurs(move(learner,9,14),2)', 'occurs(move(learner,8,14),3)']","[[['holds(in(learner,10,15),1),-next_to(8,14,10,15)'], 'holds(in(learner,8,14),3)', 3]]","['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),1)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),1)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),1)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,10,14),1)', 'occurs(move(learner,9,14),2)', 'occurs(move(learner,8,14),3)']","[[['holds(in(learner,10,15),1),-next_to(8,14,10,15)'], 'holds(in(learner,8,14),3)', 3], [['holds(in(learner,10,14),2),-next_to(8,14,10,14)'], 'holds(in(learner,8,14),3)', 3]]","['shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),1)']], [[], ['-holds(in_range(learner,attacker3),2)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),2)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),2)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,10,14),1)', 'occurs(move(learner,9,14),2)', 'occurs(move(learner,8,14),3)']","[[['holds(in(learner,10,15),1),-next_to(8,14,10,15)'], 'holds(in(learner,8,14),3)', 3], [['holds(in(learner,10,14),2),-next_to(8,14,10,14)'], 'holds(in(learner,8,14),3)', 3], []]","['shoot(learner,attacker3)', 'shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),1)']], [[], ['-holds(in_range(learner,attacker3),2)']], [[], ['-holds(in_range(learner,attacker3),3)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),3)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),3)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,10,14),4)', 'occurs(move(learner,11,14),5)', 'occurs(move(learner,12,14),6)']","[[['holds(in(learner,10,15),4),-next_to(12,14,10,15)'], 'holds(in(learner,12,14),6)', 6]]","['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),4)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),4)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),4)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,10,14),4)', 'occurs(move(learner,11,14),5)', 'occurs(move(learner,12,14),6)']","[[['holds(in(learner,10,15),4),-next_to(12,14,10,15)'], 'holds(in(learner,12,14),6)', 6], [['holds(in(learner,10,14),5),-next_to(12,14,10,14)'], 'holds(in(learner,12,14),6)', 6]]","['shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),4)']], [[], ['-holds(in_range(learner,attacker3),5)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),5)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),5)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,10,14),4)', 'occurs(move(learner,11,14),5)', 'occurs(move(learner,12,14),6)']","[[['holds(in(learner,10,15),4),-next_to(12,14,10,15)'], 'holds(in(learner,12,14),6)', 6], [['holds(in(learner,10,14),5),-next_to(12,14,10,14)'], 'holds(in(learner,12,14),6)', 6], []]","['shoot(learner,attacker3)', 'shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),4)']], [[], ['-holds(in_range(learner,attacker3),5)']], [[], ['-holds(in_range(learner,attacker3),6)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),6)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),6)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,13,14),7)', 'occurs(move(learner,14,14),8)']","[[['holds(in(learner,12,14),7),-next_to(14,14,12,14)'], 'holds(in(learner,14,14),8)', 8]]","['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),7)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),7)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),7)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,13,14),7)', 'occurs(move(learner,14,14),8)']","[[['holds(in(learner,12,14),7),-next_to(14,14,12,14)'], 'holds(in(learner,14,14),8)', 8], []]","['shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),7)']], [[], ['-holds(in_range(learner,attacker3),8)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),8)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),8)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,14,13),9)', 'occurs(shoot(learner,attacker3),10)']","[[['-holds(in_range(learner,attacker3),9)'], 'holds(agent_shot(attacker3),10)', 10]]","['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),9)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),9)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),9)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,14,13),9)', 'occurs(shoot(learner,attacker3),10)']","[[['-holds(in_range(learner,attacker3),9)'], 'holds(agent_shot(attacker3),10)', 10], []]","['shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),9)']], [[], []]]","belief0 : 
+['-occurs(shoot(learner,attacker3),10)']
+None
+"
+0,"['occurs(move(learner,16,13),11)', 'occurs(shoot(learner,attacker3),12)']","[[['-holds(in_range(learner,attacker3),11)'], 'holds(agent_shot(attacker3),12)', 12]]","['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),11)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),11)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),11)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,16,13),11)', 'occurs(shoot(learner,attacker3),12)']","[[['-holds(in_range(learner,attacker3),11)'], 'holds(agent_shot(attacker3),12)', 12], []]","['shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),11)']], [[], []]]","belief0 : 
+['-occurs(shoot(learner,attacker3),12)']
+None
+"
+1,"['occurs(move(learner,8,14),1)', 'occurs(move(learner,7,14),2)', 'occurs(move(learner,6,14),3)']","[[['holds(in(learner,9,14),1),-next_to(6,14,9,14)'], 'holds(in(learner,6,14),3)', 3]]","['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),1)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),1)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),1)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+1,"['occurs(move(learner,8,14),1)', 'occurs(move(learner,7,14),2)', 'occurs(move(learner,6,14),3)']","[[['holds(in(learner,9,14),1),-next_to(6,14,9,14)'], 'holds(in(learner,6,14),3)', 3], [['holds(in(learner,8,14),2),-next_to(6,14,8,14)'], 'holds(in(learner,6,14),3)', 3]]","['shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),1)']], [[], ['-holds(in_range(learner,attacker3),2)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),2)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),2)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+1,"['occurs(move(learner,8,14),1)', 'occurs(move(learner,7,14),2)', 'occurs(move(learner,6,14),3)']","[[['holds(in(learner,9,14),1),-next_to(6,14,9,14)'], 'holds(in(learner,6,14),3)', 3], [['holds(in(learner,8,14),2),-next_to(6,14,8,14)'], 'holds(in(learner,6,14),3)', 3], []]","['shoot(learner,attacker3)', 'shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),1)']], [[], ['-holds(in_range(learner,attacker3),2)']], [[], ['-holds(in_range(learner,attacker3),3)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),3)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),3)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+1,"['occurs(move(learner,6,13),4)', 'occurs(move(learner,5,13),5)', 'occurs(move(learner,4,13),6)']","[[['holds(in(learner,7,13),4),-next_to(4,13,7,13)'], 'holds(in(learner,4,13),6)', 6]]","['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),4)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),4)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),4)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+1,"['occurs(move(learner,6,13),4)', 'occurs(move(learner,5,13),5)', 'occurs(move(learner,4,13),6)']","[[['holds(in(learner,7,13),4),-next_to(4,13,7,13)'], 'holds(in(learner,4,13),6)', 6], [['holds(in(learner,6,13),5),-next_to(4,13,6,13)'], 'holds(in(learner,4,13),6)', 6]]","['shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),4)']], [[], ['-holds(in_range(learner,attacker3),5)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),5)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),5)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+1,"['occurs(move(learner,6,13),4)', 'occurs(move(learner,5,13),5)', 'occurs(move(learner,4,13),6)']","[[['holds(in(learner,7,13),4),-next_to(4,13,7,13)'], 'holds(in(learner,4,13),6)', 6], [['holds(in(learner,6,13),5),-next_to(4,13,6,13)'], 'holds(in(learner,4,13),6)', 6], []]","['shoot(learner,attacker3)', 'shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),4)']], [[], ['-holds(in_range(learner,attacker3),5)']], [[], ['-holds(in_range(learner,attacker3),6)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),6)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),6)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+1,"['occurs(move(learner,4,13),7)']",[[]],"['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),7)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),7)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),7)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+1,"['occurs(move(learner,4,13),8)', 'occurs(move(learner,5,13),9)', 'occurs(move(learner,6,13),10)']","[[['holds(in(learner,3,13),8),-next_to(6,13,3,13)'], 'holds(in(learner,6,13),10)', 10]]","['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),8)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),8)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),8)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+1,"['occurs(move(learner,4,13),8)', 'occurs(move(learner,5,13),9)', 'occurs(move(learner,6,13),10)']","[[['holds(in(learner,3,13),8),-next_to(6,13,3,13)'], 'holds(in(learner,6,13),10)', 10], [['holds(in(learner,4,13),9),-next_to(6,13,4,13)'], 'holds(in(learner,6,13),10)', 10]]","['shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),8)']], [[], ['-holds(in_range(learner,attacker3),9)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),9)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),9)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+1,"['occurs(move(learner,4,13),8)', 'occurs(move(learner,5,13),9)', 'occurs(move(learner,6,13),10)']","[[['holds(in(learner,3,13),8),-next_to(6,13,3,13)'], 'holds(in(learner,6,13),10)', 10], [['holds(in(learner,4,13),9),-next_to(6,13,4,13)'], 'holds(in(learner,6,13),10)', 10], []]","['shoot(learner,attacker3)', 'shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),8)']], [[], ['-holds(in_range(learner,attacker3),9)']], [[], ['-holds(in_range(learner,attacker3),10)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),10)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),10)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,9,14),1)', 'occurs(move(learner,8,14),2)', 'occurs(move(learner,7,14),3)']","[[['holds(in(learner,9,15),1),-next_to(7,14,9,15)'], 'holds(in(learner,7,14),3)', 3]]","['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),1)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),1)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),1)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,9,14),1)', 'occurs(move(learner,8,14),2)', 'occurs(move(learner,7,14),3)']","[[['holds(in(learner,9,15),1),-next_to(7,14,9,15)'], 'holds(in(learner,7,14),3)', 3], [['holds(in(learner,9,14),2),-next_to(7,14,9,14)'], 'holds(in(learner,7,14),3)', 3]]","['shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),1)']], [[], ['-holds(in_range(learner,attacker3),2)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),2)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),2)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,9,14),1)', 'occurs(move(learner,8,14),2)', 'occurs(move(learner,7,14),3)']","[[['holds(in(learner,9,15),1),-next_to(7,14,9,15)'], 'holds(in(learner,7,14),3)', 3], [['holds(in(learner,9,14),2),-next_to(7,14,9,14)'], 'holds(in(learner,7,14),3)', 3], []]","['shoot(learner,attacker3)', 'shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),1)']], [[], ['-holds(in_range(learner,attacker3),2)']], [[], ['-holds(in_range(learner,attacker3),3)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),3)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),3)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,9,14),4)', 'occurs(move(learner,10,14),5)', 'occurs(move(learner,11,14),6)']","[[['holds(in(learner,8,14),4),-next_to(11,14,8,14)'], 'holds(in(learner,11,14),6)', 6]]","['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),4)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),4)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),4)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,9,14),4)', 'occurs(move(learner,10,14),5)', 'occurs(move(learner,11,14),6)']","[[['holds(in(learner,8,14),4),-next_to(11,14,8,14)'], 'holds(in(learner,11,14),6)', 6], [['holds(in(learner,9,14),5),-next_to(11,14,9,14)'], 'holds(in(learner,11,14),6)', 6]]","['shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),4)']], [[], ['-holds(in_range(learner,attacker3),5)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),5)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),5)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,9,14),4)', 'occurs(move(learner,10,14),5)', 'occurs(move(learner,11,14),6)']","[[['holds(in(learner,8,14),4),-next_to(11,14,8,14)'], 'holds(in(learner,11,14),6)', 6], [['holds(in(learner,9,14),5),-next_to(11,14,9,14)'], 'holds(in(learner,11,14),6)', 6], []]","['shoot(learner,attacker3)', 'shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),4)']], [[], ['-holds(in_range(learner,attacker3),5)']], [[], ['-holds(in_range(learner,attacker3),6)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),6)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),6)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,10,14),7)']",[[]],"['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),7)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),7)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),7)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(shoot(learner,attacker3),8)']",[[]],"['shoot(learner,attacker3)']","[[[], []]]","belief0 : 
+['-occurs(shoot(learner,attacker3),8)']
+None
+"
+0,"['occurs(move(learner,8,13),1)', 'occurs(move(learner,7,13),2)', 'occurs(move(learner,6,13),3)']","[[['holds(in(learner,9,13),1),-next_to(6,13,9,13)'], 'holds(in(learner,6,13),3)', 3]]","['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),1)', '-holds(in_range(learner,attacker3),1)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),1)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),1)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,8,13),1)', 'occurs(move(learner,7,13),2)', 'occurs(move(learner,6,13),3)']","[[['holds(in(learner,9,13),1),-next_to(6,13,9,13)'], 'holds(in(learner,6,13),3)', 3], [['holds(in(learner,8,13),2),-next_to(6,13,8,13)'], 'holds(in(learner,6,13),3)', 3]]","['shoot(learner,attacker3)', 'rotate(learner,west1)']","[[[], ['-holds(in_range(learner,attacker3),1)', '-holds(in_range(learner,attacker3),1)']], [['holds(face(learner,south),2),-next_dir(west1,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,west1),2)']
+None
+belief1 : 
+[('holds(face(learner,south),2)', '-next_dir(west1,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+0,"['occurs(move(learner,8,13),1)', 'occurs(move(learner,7,13),2)', 'occurs(move(learner,6,13),3)']","[[['holds(in(learner,9,13),1),-next_to(6,13,9,13)'], 'holds(in(learner,6,13),3)', 3], [['holds(in(learner,8,13),2),-next_to(6,13,8,13)'], 'holds(in(learner,6,13),3)', 3], []]","['shoot(learner,attacker3)', 'rotate(learner,west1)', 'rotate(learner,south)']","[[[], ['-holds(in_range(learner,attacker3),1)', '-holds(in_range(learner,attacker3),1)']], [['holds(face(learner,south),2),-next_dir(west1,north_east)']], [['holds(face(learner,south),3),-next_dir(south,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south),3)']
+None
+belief1 : 
+[('holds(face(learner,south),3)', '-next_dir(south,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+0,"['occurs(move(learner,5,12),4)', 'occurs(move(learner,4,12),5)', 'occurs(move(learner,3,12),6)']","[[['holds(in(learner,6,12),4),-next_to(3,12,6,12)'], 'holds(in(learner,3,12),6)', 6]]","['rotate(learner,north_west2)']","[[['holds(face(learner,south),4),-next_dir(north_west2,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,north_west2),4)']
+None
+belief1 : 
+[('holds(face(learner,south),4)', '-next_dir(north_west2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+0,"['occurs(move(learner,5,12),4)', 'occurs(move(learner,4,12),5)', 'occurs(move(learner,3,12),6)']","[[['holds(in(learner,6,12),4),-next_to(3,12,6,12)'], 'holds(in(learner,3,12),6)', 6], [['holds(in(learner,5,12),5),-next_to(3,12,5,12)'], 'holds(in(learner,3,12),6)', 6]]","['rotate(learner,north_west2)', 'rotate(learner,north2)']","[[['holds(face(learner,south),4),-next_dir(north_west2,north_east)']], [['holds(face(learner,south),5),-next_dir(north2,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,north2),5)']
+None
+belief1 : 
+[('holds(face(learner,south),5)', '-next_dir(north2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+0,"['occurs(move(learner,5,12),4)', 'occurs(move(learner,4,12),5)', 'occurs(move(learner,3,12),6)']","[[['holds(in(learner,6,12),4),-next_to(3,12,6,12)'], 'holds(in(learner,3,12),6)', 6], [['holds(in(learner,5,12),5),-next_to(3,12,5,12)'], 'holds(in(learner,3,12),6)', 6], []]","['rotate(learner,north_west2)', 'rotate(learner,north2)', 'move(learner,7,9)']","[[['holds(face(learner,south),4),-next_dir(north_west2,north_east)']], [['holds(face(learner,south),5),-next_dir(north2,north_east)']], [[], ['holds(in(learner,4,12),6),-next_to(7,9,4,12)']]]","belief0 : 
+['-occurs(move(learner,7,9),6)']
+None
+"
+0,[],[[]],"['rotate(learner,west)']","[[['holds(face(learner,south),7),-next_dir(west,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,west),7)']
+None
+belief1 : 
+[('holds(face(learner,south),7)', '-next_dir(west,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+0,"['occurs(shoot(learner,attacker1),8)']",[[]],"['move(learner,13,6)']","[[[], ['holds(in(learner,3,11),8),-next_to(13,6,3,11)']]]","belief0 : 
+['-occurs(move(learner,13,6),8)']
+None
+"
+0,"['occurs(rotate(learner,south2),9)', 'occurs(rotate(learner,south1),10)', 'occurs(rotate(learner,south_east),11)']",[[]],"['move(learner,18,11)']","[[[], ['holds(in(learner,2,11),9),-next_to(18,11,2,11)']]]","belief0 : 
+['-occurs(move(learner,18,11),9)']
+None
+"
+0,"['occurs(rotate(learner,south2),9)', 'occurs(rotate(learner,south1),10)', 'occurs(rotate(learner,south_east),11)']","[[], []]","['move(learner,18,11)', 'rotate(learner,west)']","[[[], ['holds(in(learner,2,11),9),-next_to(18,11,2,11)']], [['holds(face(learner,south2),10),-next_dir(west,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,west),10)']
+None
+belief1 : 
+[('holds(face(learner,south2),10)', '-next_dir(west,south2)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+['occurs(rotate(learner,south2),9)']
+[['holds(face(R,D),I+1)', 'occurs(rotate(R,D),I)']]
+belief3 : 
+['notnext_dir(west,south2)']
+[['-next_dir(D1,D2)', 'notnext_dir(D1,D2)']]
+"
+0,"['occurs(rotate(learner,south2),9)', 'occurs(rotate(learner,south1),10)', 'occurs(rotate(learner,south_east),11)']","[[], [], []]","['move(learner,18,11)', 'rotate(learner,west)', 'move(learner,14,10)']","[[[], ['holds(in(learner,2,11),9),-next_to(18,11,2,11)']], [['holds(face(learner,south2),10),-next_dir(west,north_east)']], [[], ['holds(in(learner,2,11),11),-next_to(14,10,2,11)']]]","belief0 : 
+['-occurs(move(learner,14,10),11)']
+None
+"
+1,"['occurs(move(learner,7,14),1)', 'occurs(move(learner,6,14),2)', 'occurs(move(learner,5,14),3)']","[[['holds(in(learner,8,14),1),-next_to(5,14,8,14)'], 'holds(in(learner,5,14),3)', 3]]","['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),1)', '-holds(in_range(learner,attacker3),1)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),1)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),1)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+1,"['occurs(move(learner,7,14),1)', 'occurs(move(learner,6,14),2)', 'occurs(move(learner,5,14),3)']","[[['holds(in(learner,8,14),1),-next_to(5,14,8,14)'], 'holds(in(learner,5,14),3)', 3], [['holds(in(learner,7,14),2),-next_to(5,14,7,14)'], 'holds(in(learner,5,14),3)', 3]]","['shoot(learner,attacker3)', 'move(learner,15,1)']","[[[], ['-holds(in_range(learner,attacker3),1)', '-holds(in_range(learner,attacker3),1)']], [[], ['holds(in(learner,7,14),2),-next_to(15,1,7,14)']]]","belief0 : 
+['-occurs(move(learner,15,1),2)']
+None
+"
+1,"['occurs(move(learner,7,14),1)', 'occurs(move(learner,6,14),2)', 'occurs(move(learner,5,14),3)']","[[['holds(in(learner,8,14),1),-next_to(5,14,8,14)'], 'holds(in(learner,5,14),3)', 3], [['holds(in(learner,7,14),2),-next_to(5,14,7,14)'], 'holds(in(learner,5,14),3)', 3], []]","['shoot(learner,attacker3)', 'move(learner,15,1)', 'rotate(learner,south_west2)']","[[[], ['-holds(in_range(learner,attacker3),1)', '-holds(in_range(learner,attacker3),1)']], [[], ['holds(in(learner,7,14),2),-next_to(15,1,7,14)']], [['holds(face(learner,south),3),-next_dir(south_west2,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south_west2),3)']
+None
+belief1 : 
+[('holds(face(learner,south),3)', '-next_dir(south_west2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+1,"['occurs(move(learner,4,13),4)', 'occurs(move(learner,3,13),5)']","[[['holds(in(learner,5,13),4),-next_to(3,13,5,13)'], 'holds(in(learner,3,13),5)', 5]]","['move(learner,7,9)']","[[[], ['holds(in(learner,5,13),4),-next_to(7,9,5,13)']]]","belief0 : 
+['-occurs(move(learner,7,9),4)']
+None
+"
+1,"['occurs(move(learner,4,13),4)', 'occurs(move(learner,3,13),5)']","[[['holds(in(learner,5,13),4),-next_to(3,13,5,13)'], 'holds(in(learner,3,13),5)', 5], []]","['move(learner,7,9)', 'shoot(learner,attacker2)']","[[[], ['holds(in(learner,5,13),4),-next_to(7,9,5,13)']], [[], ['-holds(in_range(learner,attacker2),5)']]]","belief0 : 
+['-occurs(shoot(learner,attacker2),5)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker2),5)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+1,"['occurs(move(learner,3,13),6)', 'occurs(move(learner,4,13),7)']","[[['holds(in(learner,2,13),6),-next_to(4,13,2,13)'], 'holds(in(learner,4,13),7)', 7]]","['move(learner,19,8)']","[[[], ['holds(in(learner,2,13),6),-next_to(19,8,2,13)']]]","belief0 : 
+['-occurs(move(learner,19,8),6)']
+None
+"
+1,"['occurs(move(learner,3,13),6)', 'occurs(move(learner,4,13),7)']","[[['holds(in(learner,2,13),6),-next_to(4,13,2,13)'], 'holds(in(learner,4,13),7)', 7], []]","['move(learner,19,8)', 'move(learner,19,6)']","[[[], ['holds(in(learner,2,13),6),-next_to(19,8,2,13)']], [[], ['holds(in(learner,3,13),7),-next_to(19,6,3,13)']]]","belief0 : 
+['-occurs(move(learner,19,6),7)']
+None
+"
+1,"['occurs(move(learner,3,12),8)', 'occurs(move(learner,4,12),9)', 'occurs(move(learner,5,12),10)']","[[['holds(in(learner,2,12),8),-next_to(5,12,2,12)'], 'holds(in(learner,5,12),10)', 10]]","['move(learner,9,11)']","[[[], ['holds(in(learner,2,12),8),-next_to(9,11,2,12)']]]","belief0 : 
+['-occurs(move(learner,9,11),8)']
+None
+"
+1,"['occurs(move(learner,3,12),8)', 'occurs(move(learner,4,12),9)', 'occurs(move(learner,5,12),10)']","[[['holds(in(learner,2,12),8),-next_to(5,12,2,12)'], 'holds(in(learner,5,12),10)', 10], [['holds(in(learner,3,12),9),-next_to(5,12,3,12)'], 'holds(in(learner,5,12),10)', 10]]","['move(learner,9,11)', 'shoot(learner,attacker1)']","[[[], ['holds(in(learner,2,12),8),-next_to(9,11,2,12)']], [[], ['-holds(in_range(learner,attacker1),9)']]]","belief0 : 
+['-occurs(shoot(learner,attacker1),9)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker1),9)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+1,"['occurs(move(learner,3,12),8)', 'occurs(move(learner,4,12),9)', 'occurs(move(learner,5,12),10)']","[[['holds(in(learner,2,12),8),-next_to(5,12,2,12)'], 'holds(in(learner,5,12),10)', 10], [['holds(in(learner,3,12),9),-next_to(5,12,3,12)'], 'holds(in(learner,5,12),10)', 10], []]","['move(learner,9,11)', 'shoot(learner,attacker1)', 'shoot(learner,attacker2)']","[[[], ['holds(in(learner,2,12),8),-next_to(9,11,2,12)']], [[], ['-holds(in_range(learner,attacker1),9)']], [[], ['-holds(in_range(learner,attacker2),10)']]]","belief0 : 
+['-occurs(shoot(learner,attacker2),10)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker2),10)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+2,"['occurs(move(learner,9,14),1)', 'occurs(move(learner,8,14),2)', 'occurs(move(learner,7,14),3)']","[[['holds(in(learner,10,14),1),-next_to(7,14,10,14)'], 'holds(in(learner,7,14),3)', 3]]","['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),1)', '-holds(in_range(learner,attacker3),1)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),1)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),1)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+2,"['occurs(move(learner,9,14),1)', 'occurs(move(learner,8,14),2)', 'occurs(move(learner,7,14),3)']","[[['holds(in(learner,10,14),1),-next_to(7,14,10,14)'], 'holds(in(learner,7,14),3)', 3], [['holds(in(learner,9,14),2),-next_to(7,14,9,14)'], 'holds(in(learner,7,14),3)', 3]]","['shoot(learner,attacker3)', 'shoot(learner,attacker1)']","[[[], ['-holds(in_range(learner,attacker3),1)', '-holds(in_range(learner,attacker3),1)']], [[], ['-holds(in_range(learner,attacker1),2)']]]","belief0 : 
+['-occurs(shoot(learner,attacker1),2)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker1),2)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+2,"['occurs(move(learner,9,14),1)', 'occurs(move(learner,8,14),2)', 'occurs(move(learner,7,14),3)']","[[['holds(in(learner,10,14),1),-next_to(7,14,10,14)'], 'holds(in(learner,7,14),3)', 3], [['holds(in(learner,9,14),2),-next_to(7,14,9,14)'], 'holds(in(learner,7,14),3)', 3], []]","['shoot(learner,attacker3)', 'shoot(learner,attacker1)', 'rotate(learner,west2)']","[[[], ['-holds(in_range(learner,attacker3),1)', '-holds(in_range(learner,attacker3),1)']], [[], ['-holds(in_range(learner,attacker1),2)']], [['holds(face(learner,south),3),-next_dir(west2,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,west2),3)']
+None
+belief1 : 
+[('holds(face(learner,south),3)', '-next_dir(west2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+2,"['occurs(move(learner,9,13),4)', 'occurs(move(learner,10,13),5)', 'occurs(move(learner,11,13),6)']","[[['holds(in(learner,8,13),4),-next_to(11,13,8,13)'], 'holds(in(learner,11,13),6)', 6]]","['rotate(learner,south_west)']","[[['holds(face(learner,south),4),-next_dir(south_west,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south_west),4)']
+None
+belief1 : 
+[('holds(face(learner,south),4)', '-next_dir(south_west,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+2,"['occurs(move(learner,9,13),4)', 'occurs(move(learner,10,13),5)', 'occurs(move(learner,11,13),6)']","[[['holds(in(learner,8,13),4),-next_to(11,13,8,13)'], 'holds(in(learner,11,13),6)', 6], [['holds(in(learner,9,13),5),-next_to(11,13,9,13)'], 'holds(in(learner,11,13),6)', 6]]","['rotate(learner,south_west)', 'rotate(learner,south_east)']","[[['holds(face(learner,south),4),-next_dir(south_west,north_east)']], [['holds(face(learner,south),5),-next_dir(south_east,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south_east),5)']
+None
+belief1 : 
+[('holds(face(learner,south),5)', '-next_dir(south_east,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+2,"['occurs(move(learner,9,13),4)', 'occurs(move(learner,10,13),5)', 'occurs(move(learner,11,13),6)']","[[['holds(in(learner,8,13),4),-next_to(11,13,8,13)'], 'holds(in(learner,11,13),6)', 6], [['holds(in(learner,9,13),5),-next_to(11,13,9,13)'], 'holds(in(learner,11,13),6)', 6], []]","['rotate(learner,south_west)', 'rotate(learner,south_east)', 'rotate(learner,south_west2)']","[[['holds(face(learner,south),4),-next_dir(south_west,north_east)']], [['holds(face(learner,south),5),-next_dir(south_east,north_east)']], [['holds(face(learner,south),6),-next_dir(south_west2,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south_west2),6)']
+None
+belief1 : 
+[('holds(face(learner,south),6)', '-next_dir(south_west2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+0,"['occurs(move(learner,10,14),1)', 'occurs(move(learner,11,14),2)', 'occurs(move(learner,12,14),3)']","[[['holds(in(learner,10,15),1),-next_to(12,14,10,15)'], 'holds(in(learner,12,14),3)', 3]]","['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),1)', '-holds(in_range(learner,attacker3),1)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),1)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),1)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,10,14),1)', 'occurs(move(learner,11,14),2)', 'occurs(move(learner,12,14),3)']","[[['holds(in(learner,10,15),1),-next_to(12,14,10,15)'], 'holds(in(learner,12,14),3)', 3], [['holds(in(learner,10,14),2),-next_to(12,14,10,14)'], 'holds(in(learner,12,14),3)', 3]]","['shoot(learner,attacker3)', 'rotate(learner,north)']","[[[], ['-holds(in_range(learner,attacker3),1)', '-holds(in_range(learner,attacker3),1)']], [['holds(face(learner,south),2),-next_dir(north,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,north),2)']
+None
+belief1 : 
+[('holds(face(learner,south),2)', '-next_dir(north,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+0,"['occurs(move(learner,10,14),1)', 'occurs(move(learner,11,14),2)', 'occurs(move(learner,12,14),3)']","[[['holds(in(learner,10,15),1),-next_to(12,14,10,15)'], 'holds(in(learner,12,14),3)', 3], [['holds(in(learner,10,14),2),-next_to(12,14,10,14)'], 'holds(in(learner,12,14),3)', 3], []]","['shoot(learner,attacker3)', 'rotate(learner,north)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),1)', '-holds(in_range(learner,attacker3),1)']], [['holds(face(learner,south),2),-next_dir(north,north_east)']], [[], ['-holds(in_range(learner,attacker3),3)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),3)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),3)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,11,14),1)', 'occurs(move(learner,12,14),2)', 'occurs(move(learner,13,14),3)']","[[['holds(in(learner,11,15),1),-next_to(13,14,11,15)'], 'holds(in(learner,13,14),3)', 3]]","['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),1)', '-holds(in_range(learner,attacker3),1)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),1)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),1)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,11,14),1)', 'occurs(move(learner,12,14),2)', 'occurs(move(learner,13,14),3)']","[[['holds(in(learner,11,15),1),-next_to(13,14,11,15)'], 'holds(in(learner,13,14),3)', 3], [['holds(in(learner,11,14),2),-next_to(13,14,11,14)'], 'holds(in(learner,13,14),3)', 3]]","['shoot(learner,attacker3)', 'shoot(learner,attacker1)']","[[[], ['-holds(in_range(learner,attacker3),1)', '-holds(in_range(learner,attacker3),1)']], [[], ['-holds(in_range(learner,attacker1),2)']]]","belief0 : 
+['-occurs(shoot(learner,attacker1),2)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker1),2)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,11,14),1)', 'occurs(move(learner,12,14),2)', 'occurs(move(learner,13,14),3)']","[[['holds(in(learner,11,15),1),-next_to(13,14,11,15)'], 'holds(in(learner,13,14),3)', 3], [['holds(in(learner,11,14),2),-next_to(13,14,11,14)'], 'holds(in(learner,13,14),3)', 3], []]","['shoot(learner,attacker3)', 'shoot(learner,attacker1)', 'move(learner,14,11)']","[[[], ['-holds(in_range(learner,attacker3),1)', '-holds(in_range(learner,attacker3),1)']], [[], ['-holds(in_range(learner,attacker1),2)']], [[], ['holds(in(learner,12,14),3),-next_to(14,11,12,14)']]]","belief0 : 
+['-occurs(move(learner,14,11),3)']
+None
+"
+0,"['occurs(move(learner,7,14),1)', 'occurs(move(learner,6,14),2)', 'occurs(move(learner,5,14),3)']","[[['holds(in(learner,8,14),1),-next_to(5,14,8,14)'], 'holds(in(learner,5,14),3)', 3]]","['shoot(learner,attacker2)']","[[[], ['-holds(in_range(learner,attacker2),1)', '-holds(in_range(learner,attacker2),1)']]]","belief0 : 
+['-occurs(shoot(learner,attacker2),1)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker2),1)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,7,14),1)', 'occurs(move(learner,6,14),2)', 'occurs(move(learner,5,14),3)']","[[['holds(in(learner,8,14),1),-next_to(5,14,8,14)'], 'holds(in(learner,5,14),3)', 3], [['holds(in(learner,7,14),2),-next_to(5,14,7,14)'], 'holds(in(learner,5,14),3)', 3]]","['shoot(learner,attacker2)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker2),1)', '-holds(in_range(learner,attacker2),1)']], [[], ['-holds(in_range(learner,attacker3),2)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),2)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),2)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,7,14),1)', 'occurs(move(learner,6,14),2)', 'occurs(move(learner,5,14),3)']","[[['holds(in(learner,8,14),1),-next_to(5,14,8,14)'], 'holds(in(learner,5,14),3)', 3], [['holds(in(learner,7,14),2),-next_to(5,14,7,14)'], 'holds(in(learner,5,14),3)', 3], []]","['shoot(learner,attacker2)', 'shoot(learner,attacker3)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker2),1)', '-holds(in_range(learner,attacker2),1)']], [[], ['-holds(in_range(learner,attacker3),2)']], [[], ['-holds(in_range(learner,attacker3),3)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),3)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),3)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+0,"['occurs(move(learner,5,14),4)', 'occurs(move(learner,4,14),5)', 'occurs(move(learner,3,14),6)']","[[['holds(in(learner,5,15),4),-next_to(3,14,5,15)'], 'holds(in(learner,3,14),6)', 6]]","['move(learner,0,3)']","[[[], ['holds(in(learner,5,15),4),-next_to(0,3,5,15)']]]","belief0 : 
+['-occurs(move(learner,0,3),4)']
+None
+"
+0,"['occurs(move(learner,5,14),4)', 'occurs(move(learner,4,14),5)', 'occurs(move(learner,3,14),6)']","[[['holds(in(learner,5,15),4),-next_to(3,14,5,15)'], 'holds(in(learner,3,14),6)', 6], [['holds(in(learner,5,14),5),-next_to(3,14,5,14)'], 'holds(in(learner,3,14),6)', 6]]","['move(learner,0,3)', 'move(learner,4,13)']","[[[], ['holds(in(learner,5,15),4),-next_to(0,3,5,15)']], [[], ['holds(in(learner,5,14),5),-next_to(4,13,5,14)']]]","belief0 : 
+['-occurs(move(learner,4,13),5)']
+None
+"
+0,"['occurs(move(learner,5,14),4)', 'occurs(move(learner,4,14),5)', 'occurs(move(learner,3,14),6)']","[[['holds(in(learner,5,15),4),-next_to(3,14,5,15)'], 'holds(in(learner,3,14),6)', 6], [['holds(in(learner,5,14),5),-next_to(3,14,5,14)'], 'holds(in(learner,3,14),6)', 6], []]","['move(learner,0,3)', 'move(learner,4,13)', 'rotate(learner,south_west2)']","[[[], ['holds(in(learner,5,15),4),-next_to(0,3,5,15)']], [[], ['holds(in(learner,5,14),5),-next_to(4,13,5,14)']], [['holds(face(learner,south),6),-next_dir(south_west2,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south_west2),6)']
+None
+belief1 : 
+[('holds(face(learner,south),6)', '-next_dir(south_west2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+0,"['occurs(move(learner,4,14),7)']",[[]],"['rotate(learner,north_east2)']","[[['holds(face(learner,south),7),-next_dir(north_east2,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,north_east2),7)']
+None
+belief1 : 
+[('holds(face(learner,south),7)', '-next_dir(north_east2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+0,"['occurs(shoot(learner,attacker3),8)']",[[]],"['move(learner,4,2)']","[[[], ['holds(in(learner,3,14),8),-next_to(4,2,3,14)']]]","belief0 : 
+['-occurs(move(learner,4,2),8)']
+None
+"
+1,"['occurs(move(learner,11,14),1)', 'occurs(move(learner,12,14),2)', 'occurs(move(learner,13,14),3)']","[[['holds(in(learner,11,15),1),-next_to(13,14,11,15)'], 'holds(in(learner,13,14),3)', 3]]","['rotate(learner,south_west1)']","[[['holds(face(learner,south),1),-next_dir(south_west1,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south_west1),1)']
+None
+belief1 : 
+[('holds(face(learner,south),1)', '-next_dir(south_west1,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+1,"['occurs(move(learner,11,14),1)', 'occurs(move(learner,12,14),2)', 'occurs(move(learner,13,14),3)']","[[['holds(in(learner,11,15),1),-next_to(13,14,11,15)'], 'holds(in(learner,13,14),3)', 3], [['holds(in(learner,11,14),2),-next_to(13,14,11,14)'], 'holds(in(learner,13,14),3)', 3]]","['rotate(learner,south_west1)', 'shoot(learner,attacker1)']","[[['holds(face(learner,south),1),-next_dir(south_west1,north_east)']], [[], ['-holds(in_range(learner,attacker1),2)']]]","belief0 : 
+['-occurs(shoot(learner,attacker1),2)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker1),2)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+1,"['occurs(move(learner,11,14),1)', 'occurs(move(learner,12,14),2)', 'occurs(move(learner,13,14),3)']","[[['holds(in(learner,11,15),1),-next_to(13,14,11,15)'], 'holds(in(learner,13,14),3)', 3], [['holds(in(learner,11,14),2),-next_to(13,14,11,14)'], 'holds(in(learner,13,14),3)', 3], []]","['rotate(learner,south_west1)', 'shoot(learner,attacker1)', 'rotate(learner,south_west2)']","[[['holds(face(learner,south),1),-next_dir(south_west1,north_east)']], [[], ['-holds(in_range(learner,attacker1),2)']], [['holds(face(learner,south),3),-next_dir(south_west2,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south_west2),3)']
+None
+belief1 : 
+[('holds(face(learner,south),3)', '-next_dir(south_west2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+1,"['occurs(move(learner,14,14),4)', 'occurs(move(learner,15,14),5)']","[[['holds(in(learner,14,15),4),-next_to(15,14,14,15)'], 'holds(in(learner,15,14),5)', 5]]","['shoot(learner,attacker1)']","[[[], ['-holds(in_range(learner,attacker1),4)']]]","belief0 : 
+['-occurs(shoot(learner,attacker1),4)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker1),4)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+1,"['occurs(move(learner,14,14),4)', 'occurs(move(learner,15,14),5)']","[[['holds(in(learner,14,15),4),-next_to(15,14,14,15)'], 'holds(in(learner,15,14),5)', 5], []]","['shoot(learner,attacker1)', 'rotate(learner,north_east)']","[[[], ['-holds(in_range(learner,attacker1),4)']], [['holds(face(learner,south),5),-next_dir(north_east,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,north_east),5)']
+None
+belief1 : 
+[('holds(face(learner,south),5)', '-next_dir(north_east,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+1,[],[[]],"['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),6)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),6)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),6)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+1,[],[[]],"['shoot(learner,attacker1)']","[[[], ['-holds(in_range(learner,attacker1),7)']]]","belief0 : 
+['-occurs(shoot(learner,attacker1),7)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker1),7)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+1,"['occurs(shoot(learner,attacker2),8)']",[[]],"['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),8)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),8)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),8)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+1,"['occurs(shoot(learner,attacker2),9)']",[[]],"['move(learner,7,1)']","[[[], ['holds(in(learner,17,14),9),-next_to(7,1,17,14)']]]","belief0 : 
+['-occurs(move(learner,7,1),9)']
+None
+"
+1,"['occurs(move(learner,16,14),10)', 'occurs(move(learner,15,14),11)', 'occurs(move(learner,14,14),12)']","[[['holds(in(learner,17,14),10),-next_to(14,14,17,14)'], 'holds(in(learner,14,14),12)', 12]]","['move(learner,17,10)']","[[[], ['holds(in(learner,17,14),10),-next_to(17,10,17,14)']]]","belief0 : 
+['-occurs(move(learner,17,10),10)']
+None
+"
+1,"['occurs(move(learner,16,14),10)', 'occurs(move(learner,15,14),11)', 'occurs(move(learner,14,14),12)']","[[['holds(in(learner,17,14),10),-next_to(14,14,17,14)'], 'holds(in(learner,14,14),12)', 12], [['holds(in(learner,16,14),11),-next_to(14,14,16,14)'], 'holds(in(learner,14,14),12)', 12]]","['move(learner,17,10)', 'move(learner,19,1)']","[[[], ['holds(in(learner,17,14),10),-next_to(17,10,17,14)']], [[], ['holds(in(learner,16,14),11),-next_to(19,1,16,14)']]]","belief0 : 
+['-occurs(move(learner,19,1),11)']
+None
+"
+1,"['occurs(move(learner,16,14),10)', 'occurs(move(learner,15,14),11)', 'occurs(move(learner,14,14),12)']","[[['holds(in(learner,17,14),10),-next_to(14,14,17,14)'], 'holds(in(learner,14,14),12)', 12], [['holds(in(learner,16,14),11),-next_to(14,14,16,14)'], 'holds(in(learner,14,14),12)', 12], []]","['move(learner,17,10)', 'move(learner,19,1)', 'rotate(learner,north_west2)']","[[[], ['holds(in(learner,17,14),10),-next_to(17,10,17,14)']], [[], ['holds(in(learner,16,14),11),-next_to(19,1,16,14)']], [['holds(face(learner,south),12),-next_dir(north_west2,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,north_west2),12)']
+None
+belief1 : 
+[('holds(face(learner,south),12)', '-next_dir(north_west2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+1,[],[[]],"['rotate(learner,south1)']",[[[]]],"belief0 : 
+['-occurs(rotate(learner,south1),13)']
+None
+"
+1,[],[[]],"['move(learner,6,0)']","[[[], []]]","belief0 : 
+['-occurs(move(learner,6,0),14)']
+None
+"
+1,[],[[]],"['shoot(learner,attacker1)']","[[[], []]]","belief0 : 
+['-occurs(shoot(learner,attacker1),15)']
+None
+"
+1,[],[[]],"['move(learner,9,13)']","[[[], []]]","belief0 : 
+['-occurs(move(learner,9,13),16)']
+None
+"
+1,"['occurs(rotate(learner,south_west1),17)', 'occurs(rotate(learner,south_west2),18)', 'occurs(rotate(learner,south_west),19)']",[[]],"['rotate(learner,north_east2)']","[[['holds(face(learner,south),17),-next_dir(north_east2,south)']]]","belief0 : 
+['-occurs(rotate(learner,north_east2),17)']
+None
+belief1 : 
+[('holds(face(learner,south),17)', '-next_dir(north_east2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+1,"['occurs(rotate(learner,south_west1),17)', 'occurs(rotate(learner,south_west2),18)', 'occurs(rotate(learner,south_west),19)']","[[], []]","['rotate(learner,north_east2)', 'move(learner,14,10)']","[[['holds(face(learner,south),17),-next_dir(north_east2,south)']], [[], ['holds(in(learner,15,14),18),-next_to(14,10,15,14)']]]","belief0 : 
+['-occurs(move(learner,14,10),18)']
+None
+"
+1,"['occurs(rotate(learner,south_west1),17)', 'occurs(rotate(learner,south_west2),18)', 'occurs(rotate(learner,south_west),19)']","[[], [], []]","['rotate(learner,north_east2)', 'move(learner,14,10)', 'move(learner,7,3)']","[[['holds(face(learner,south),17),-next_dir(north_east2,south)']], [[], ['holds(in(learner,15,14),18),-next_to(14,10,15,14)']], [[], ['holds(in(learner,15,14),19),-next_to(7,3,15,14)']]]","belief0 : 
+['-occurs(move(learner,7,3),19)']
+None
+"
+2,"['occurs(move(learner,8,14),1)', 'occurs(move(learner,7,14),2)', 'occurs(move(learner,6,14),3)']","[[['holds(in(learner,8,15),1),-next_to(6,14,8,15)'], 'holds(in(learner,6,14),3)', 3]]","['rotate(learner,south)']","[[['holds(face(learner,south),1),-next_dir(south,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south),1)']
+None
+belief1 : 
+[('holds(face(learner,south),1)', '-next_dir(south,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+2,"['occurs(move(learner,8,14),1)', 'occurs(move(learner,7,14),2)', 'occurs(move(learner,6,14),3)']","[[['holds(in(learner,8,15),1),-next_to(6,14,8,15)'], 'holds(in(learner,6,14),3)', 3], [['holds(in(learner,8,14),2),-next_to(6,14,8,14)'], 'holds(in(learner,6,14),3)', 3]]","['rotate(learner,south)', 'move(learner,17,11)']","[[['holds(face(learner,south),1),-next_dir(south,north_east)']], [[], ['holds(in(learner,8,14),2),-next_to(17,11,8,14)']]]","belief0 : 
+['-occurs(move(learner,17,11),2)']
+None
+"
+2,"['occurs(move(learner,8,14),1)', 'occurs(move(learner,7,14),2)', 'occurs(move(learner,6,14),3)']","[[['holds(in(learner,8,15),1),-next_to(6,14,8,15)'], 'holds(in(learner,6,14),3)', 3], [['holds(in(learner,8,14),2),-next_to(6,14,8,14)'], 'holds(in(learner,6,14),3)', 3], []]","['rotate(learner,south)', 'move(learner,17,11)', 'move(learner,16,3)']","[[['holds(face(learner,south),1),-next_dir(south,north_east)']], [[], ['holds(in(learner,8,14),2),-next_to(17,11,8,14)']], [[], ['holds(in(learner,7,14),3),-next_to(16,3,7,14)']]]","belief0 : 
+['-occurs(move(learner,16,3),3)']
+None
+"
+2,"['occurs(move(learner,5,14),4)', 'occurs(move(learner,4,14),5)', 'occurs(move(learner,3,14),6)']","[[['holds(in(learner,6,14),4),-next_to(3,14,6,14)'], 'holds(in(learner,3,14),6)', 6]]","['shoot(learner,attacker2)']","[[[], ['-holds(in_range(learner,attacker2),4)']]]","belief0 : 
+['-occurs(shoot(learner,attacker2),4)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker2),4)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+2,"['occurs(move(learner,5,14),4)', 'occurs(move(learner,4,14),5)', 'occurs(move(learner,3,14),6)']","[[['holds(in(learner,6,14),4),-next_to(3,14,6,14)'], 'holds(in(learner,3,14),6)', 6], [['holds(in(learner,5,14),5),-next_to(3,14,5,14)'], 'holds(in(learner,3,14),6)', 6]]","['shoot(learner,attacker2)', 'rotate(learner,north_west)']","[[[], ['-holds(in_range(learner,attacker2),4)']], [['holds(face(learner,south),5),-next_dir(north_west,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,north_west),5)']
+None
+belief1 : 
+[('holds(face(learner,south),5)', '-next_dir(north_west,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+2,"['occurs(move(learner,5,14),4)', 'occurs(move(learner,4,14),5)', 'occurs(move(learner,3,14),6)']","[[['holds(in(learner,6,14),4),-next_to(3,14,6,14)'], 'holds(in(learner,3,14),6)', 6], [['holds(in(learner,5,14),5),-next_to(3,14,5,14)'], 'holds(in(learner,3,14),6)', 6], []]","['shoot(learner,attacker2)', 'rotate(learner,north_west)', 'rotate(learner,south1)']","[[[], ['-holds(in_range(learner,attacker2),4)']], [['holds(face(learner,south),5),-next_dir(north_west,north_east)']], [['holds(face(learner,south),6),-next_dir(south1,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south1),6)']
+None
+belief1 : 
+[('holds(face(learner,south),6)', '-next_dir(south1,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+2,[],[[]],"['move(learner,13,6)']","[[[], []]]","belief0 : 
+['-occurs(move(learner,13,6),7)']
+None
+"
+2,"['occurs(shoot(learner,attacker3),8)']",[[]],"['rotate(learner,north1)']","[[['holds(face(learner,south),8),-next_dir(north1,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,north1),8)']
+None
+belief1 : 
+[('holds(face(learner,south),8)', '-next_dir(north1,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+2,"['occurs(shoot(learner,attacker2),9)']",[[]],"['rotate(learner,north_west1)']","[[['holds(face(learner,south),9),-next_dir(north_west1,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,north_west1),9)']
+None
+belief1 : 
+[('holds(face(learner,south),9)', '-next_dir(north_west1,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+3,"['occurs(move(learner,9,14),1)', 'occurs(move(learner,8,14),2)', 'occurs(move(learner,7,14),3)']","[[['holds(in(learner,9,15),1),-next_to(7,14,9,15)'], 'holds(in(learner,7,14),3)', 3]]","['rotate(learner,east2)']","[[['holds(face(learner,south),1),-next_dir(east2,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,east2),1)']
+None
+belief1 : 
+[('holds(face(learner,south),1)', '-next_dir(east2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+3,"['occurs(move(learner,9,14),1)', 'occurs(move(learner,8,14),2)', 'occurs(move(learner,7,14),3)']","[[['holds(in(learner,9,15),1),-next_to(7,14,9,15)'], 'holds(in(learner,7,14),3)', 3], [['holds(in(learner,9,14),2),-next_to(7,14,9,14)'], 'holds(in(learner,7,14),3)', 3]]","['rotate(learner,east2)', 'shoot(learner,attacker2)']","[[['holds(face(learner,south),1),-next_dir(east2,north_east)']], [[], ['-holds(in_range(learner,attacker2),2)']]]","belief0 : 
+['-occurs(shoot(learner,attacker2),2)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker2),2)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+3,"['occurs(move(learner,9,14),1)', 'occurs(move(learner,8,14),2)', 'occurs(move(learner,7,14),3)']","[[['holds(in(learner,9,15),1),-next_to(7,14,9,15)'], 'holds(in(learner,7,14),3)', 3], [['holds(in(learner,9,14),2),-next_to(7,14,9,14)'], 'holds(in(learner,7,14),3)', 3], []]","['rotate(learner,east2)', 'shoot(learner,attacker2)', 'move(learner,8,10)']","[[['holds(face(learner,south),1),-next_dir(east2,north_east)']], [[], ['-holds(in_range(learner,attacker2),2)']], [[], ['holds(in(learner,8,14),3),-next_to(8,10,8,14)']]]","belief0 : 
+['-occurs(move(learner,8,10),3)']
+None
+"
+3,"['occurs(move(learner,8,14),4)', 'occurs(move(learner,9,14),5)', 'occurs(move(learner,10,14),6)']","[[['holds(in(learner,8,15),4),-next_to(10,14,8,15)'], 'holds(in(learner,10,14),6)', 6]]","['move(learner,13,4)']","[[[], ['holds(in(learner,8,15),4),-next_to(13,4,8,15)']]]","belief0 : 
+['-occurs(move(learner,13,4),4)']
+None
+"
+3,"['occurs(move(learner,8,14),4)', 'occurs(move(learner,9,14),5)', 'occurs(move(learner,10,14),6)']","[[['holds(in(learner,8,15),4),-next_to(10,14,8,15)'], 'holds(in(learner,10,14),6)', 6], [['holds(in(learner,8,14),5),-next_to(10,14,8,14)'], 'holds(in(learner,10,14),6)', 6]]","['move(learner,13,4)', 'move(learner,12,5)']","[[[], ['holds(in(learner,8,15),4),-next_to(13,4,8,15)']], [[], ['holds(in(learner,8,14),5),-next_to(12,5,8,14)']]]","belief0 : 
+['-occurs(move(learner,12,5),5)']
+None
+"
+3,"['occurs(move(learner,8,14),4)', 'occurs(move(learner,9,14),5)', 'occurs(move(learner,10,14),6)']","[[['holds(in(learner,8,15),4),-next_to(10,14,8,15)'], 'holds(in(learner,10,14),6)', 6], [['holds(in(learner,8,14),5),-next_to(10,14,8,14)'], 'holds(in(learner,10,14),6)', 6], []]","['move(learner,13,4)', 'move(learner,12,5)', 'move(learner,8,12)']","[[[], ['holds(in(learner,8,15),4),-next_to(13,4,8,15)']], [[], ['holds(in(learner,8,14),5),-next_to(12,5,8,14)']], [[], ['holds(in(learner,9,14),6),-next_to(8,12,9,14)']]]","belief0 : 
+['-occurs(move(learner,8,12),6)']
+None
+"
+3,"['occurs(move(learner,8,14),7)']",[[]],"['shoot(learner,attacker2)']","[[[], ['-holds(in_range(learner,attacker2),7)']]]","belief0 : 
+['-occurs(shoot(learner,attacker2),7)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker2),7)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+3,"['occurs(shoot(learner,attacker2),8)']",[[]],"['move(learner,3,1)']","[[[], ['holds(in(learner,9,13),8),-next_to(3,1,9,13)']]]","belief0 : 
+['-occurs(move(learner,3,1),8)']
+None
+"
+3,"['occurs(shoot(learner,attacker1),9)']",[[]],"['shoot(learner,attacker2)']","[[[], []]]","belief0 : 
+['-occurs(shoot(learner,attacker2),9)']
+None
+"
+4,"['occurs(move(learner,11,14),1)', 'occurs(move(learner,12,14),2)', 'occurs(move(learner,13,14),3)']","[[['holds(in(learner,10,14),1),-next_to(13,14,10,14)'], 'holds(in(learner,13,14),3)', 3]]","['rotate(learner,south_west)']","[[['holds(face(learner,south),1),-next_dir(south_west,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south_west),1)']
+None
+belief1 : 
+[('holds(face(learner,south),1)', '-next_dir(south_west,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+4,"['occurs(move(learner,11,14),1)', 'occurs(move(learner,12,14),2)', 'occurs(move(learner,13,14),3)']","[[['holds(in(learner,10,14),1),-next_to(13,14,10,14)'], 'holds(in(learner,13,14),3)', 3], [['holds(in(learner,11,14),2),-next_to(13,14,11,14)'], 'holds(in(learner,13,14),3)', 3]]","['rotate(learner,south_west)', 'rotate(learner,north_east2)']","[[['holds(face(learner,south),1),-next_dir(south_west,north_east)']], [['holds(face(learner,south),2),-next_dir(north_east2,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,north_east2),2)']
+None
+belief1 : 
+[('holds(face(learner,south),2)', '-next_dir(north_east2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+4,"['occurs(move(learner,11,14),1)', 'occurs(move(learner,12,14),2)', 'occurs(move(learner,13,14),3)']","[[['holds(in(learner,10,14),1),-next_to(13,14,10,14)'], 'holds(in(learner,13,14),3)', 3], [['holds(in(learner,11,14),2),-next_to(13,14,11,14)'], 'holds(in(learner,13,14),3)', 3], []]","['rotate(learner,south_west)', 'rotate(learner,north_east2)', 'move(learner,4,7)']","[[['holds(face(learner,south),1),-next_dir(south_west,north_east)']], [['holds(face(learner,south),2),-next_dir(north_east2,north_east)']], [[], ['holds(in(learner,12,14),3),-next_to(4,7,12,14)']]]","belief0 : 
+['-occurs(move(learner,4,7),3)']
+None
+"
+4,"['occurs(move(learner,13,12),4)', 'occurs(move(learner,14,12),5)', 'occurs(move(learner,15,12),6)']","[[['holds(in(learner,12,12),4),-next_to(15,12,12,12)'], 'holds(in(learner,15,12),6)', 6]]","['rotate(learner,west1)']","[[['holds(face(learner,south),4),-next_dir(west1,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,west1),4)']
+None
+belief1 : 
+[('holds(face(learner,south),4)', '-next_dir(west1,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+4,"['occurs(move(learner,13,12),4)', 'occurs(move(learner,14,12),5)', 'occurs(move(learner,15,12),6)']","[[['holds(in(learner,12,12),4),-next_to(15,12,12,12)'], 'holds(in(learner,15,12),6)', 6], [['holds(in(learner,13,12),5),-next_to(15,12,13,12)'], 'holds(in(learner,15,12),6)', 6]]","['rotate(learner,west1)', 'shoot(learner,attacker2)']","[[['holds(face(learner,south),4),-next_dir(west1,north_east)']], [[], ['-holds(in_range(learner,attacker2),5)']]]","belief0 : 
+['-occurs(shoot(learner,attacker2),5)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker2),5)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+4,"['occurs(move(learner,13,12),4)', 'occurs(move(learner,14,12),5)', 'occurs(move(learner,15,12),6)']","[[['holds(in(learner,12,12),4),-next_to(15,12,12,12)'], 'holds(in(learner,15,12),6)', 6], [['holds(in(learner,13,12),5),-next_to(15,12,13,12)'], 'holds(in(learner,15,12),6)', 6], []]","['rotate(learner,west1)', 'shoot(learner,attacker2)', 'move(learner,14,4)']","[[['holds(face(learner,south),4),-next_dir(west1,north_east)']], [[], ['-holds(in_range(learner,attacker2),5)']], [[], ['holds(in(learner,14,12),6),-next_to(14,4,14,12)']]]","belief0 : 
+['-occurs(move(learner,14,4),6)']
+None
+"
+4,"['occurs(move(learner,17,11),7)', 'occurs(move(learner,18,11),8)']","[[['holds(in(learner,16,11),7),-next_to(18,11,16,11)'], 'holds(in(learner,18,11),8)', 8]]","['shoot(learner,attacker2)']","[[[], ['-holds(in_range(learner,attacker2),7)']]]","belief0 : 
+['-occurs(shoot(learner,attacker2),7)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker2),7)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+4,"['occurs(move(learner,17,11),7)', 'occurs(move(learner,18,11),8)']","[[['holds(in(learner,16,11),7),-next_to(18,11,16,11)'], 'holds(in(learner,18,11),8)', 8], []]","['shoot(learner,attacker2)', 'shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker2),7)']], [[], ['-holds(in_range(learner,attacker3),8)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),8)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),8)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+4,[],[[]],"['move(learner,0,7)']","[[[], []]]","belief0 : 
+['-occurs(move(learner,0,7),9)']
+None
+"
+4,[],[[]],"['shoot(learner,attacker2)']","[[[], []]]","belief0 : 
+['-occurs(shoot(learner,attacker2),10)']
+None
+"
+4,[],[[]],"['move(learner,14,9)']","[[[], []]]","belief0 : 
+['-occurs(move(learner,14,9),11)']
+None
+"
+4,[],[[]],"['rotate(learner,south1)']",[[[]]],"belief0 : 
+['-occurs(rotate(learner,south1),12)']
+None
+"
+4,[],[[]],"['rotate(learner,east2)']",[[[]]],"belief0 : 
+['-occurs(rotate(learner,east2),13)']
+None
+"
+4,[],[[]],"['move(learner,5,14)']","[[[], []]]","belief0 : 
+['-occurs(move(learner,5,14),14)']
+None
+"
+4,[],[[]],"['shoot(learner,attacker2)']","[[[], []]]","belief0 : 
+['-occurs(shoot(learner,attacker2),15)']
+None
+"
+4,[],[[]],"['rotate(learner,south_east2)']",[[[]]],"belief0 : 
+['-occurs(rotate(learner,south_east2),16)']
+None
+"
+4,[],[[]],"['shoot(learner,attacker3)']","[[[], []]]","belief0 : 
+['-occurs(shoot(learner,attacker3),17)']
+None
+"
+4,[],[[]],"['move(learner,13,14)']","[[[], []]]","belief0 : 
+['-occurs(move(learner,13,14),18)']
+None
+"
+4,[],[[]],"['move(learner,14,9)']","[[[], []]]","belief0 : 
+['-occurs(move(learner,14,9),19)']
+None
+"
+4,[],[[]],"['shoot(learner,attacker3)']","[[[], []]]","belief0 : 
+['-occurs(shoot(learner,attacker3),20)']
+None
+"
+4,[],[[]],"['shoot(learner,attacker1)']","[[[], []]]","belief0 : 
+['-occurs(shoot(learner,attacker1),21)']
+None
+"
+5,"['occurs(move(learner,7,14),1)', 'occurs(move(learner,6,14),2)', 'occurs(move(learner,5,14),3)']","[[['holds(in(learner,8,14),1),-next_to(5,14,8,14)'], 'holds(in(learner,5,14),3)', 3]]","['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),1)', '-holds(in_range(learner,attacker3),1)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),1)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),1)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+5,"['occurs(move(learner,7,14),1)', 'occurs(move(learner,6,14),2)', 'occurs(move(learner,5,14),3)']","[[['holds(in(learner,8,14),1),-next_to(5,14,8,14)'], 'holds(in(learner,5,14),3)', 3], [['holds(in(learner,7,14),2),-next_to(5,14,7,14)'], 'holds(in(learner,5,14),3)', 3]]","['shoot(learner,attacker3)', 'shoot(learner,attacker2)']","[[[], ['-holds(in_range(learner,attacker3),1)', '-holds(in_range(learner,attacker3),1)']], [[], ['-holds(in_range(learner,attacker2),2)']]]","belief0 : 
+['-occurs(shoot(learner,attacker2),2)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker2),2)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+5,"['occurs(move(learner,7,14),1)', 'occurs(move(learner,6,14),2)', 'occurs(move(learner,5,14),3)']","[[['holds(in(learner,8,14),1),-next_to(5,14,8,14)'], 'holds(in(learner,5,14),3)', 3], [['holds(in(learner,7,14),2),-next_to(5,14,7,14)'], 'holds(in(learner,5,14),3)', 3], []]","['shoot(learner,attacker3)', 'shoot(learner,attacker2)', 'move(learner,9,12)']","[[[], ['-holds(in_range(learner,attacker3),1)', '-holds(in_range(learner,attacker3),1)']], [[], ['-holds(in_range(learner,attacker2),2)']], [[], ['holds(in(learner,6,14),3),-next_to(9,12,6,14)']]]","belief0 : 
+['-occurs(move(learner,9,12),3)']
+None
+"
+5,[],[[]],"['shoot(learner,attacker2)']","[[[], ['-holds(in_range(learner,attacker2),4)']]]","belief0 : 
+['-occurs(shoot(learner,attacker2),4)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker2),4)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+5,"['occurs(move(learner,5,14),5)']",[[]],"['rotate(learner,south_west2)']","[[['holds(face(learner,south),5),-next_dir(south_west2,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south_west2),5)']
+None
+belief1 : 
+[('holds(face(learner,south),5)', '-next_dir(south_west2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+5,[],[[]],"['shoot(learner,attacker2)']","[[[], ['-holds(in_range(learner,attacker2),6)']]]","belief0 : 
+['-occurs(shoot(learner,attacker2),6)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker2),6)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+5,[],[[]],"['shoot(learner,attacker1)']","[[[], ['-holds(in_range(learner,attacker1),7)']]]","belief0 : 
+['-occurs(shoot(learner,attacker1),7)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker1),7)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+5,"['occurs(shoot(learner,attacker2),8)']",[[]],"['rotate(learner,north2)']","[[['holds(face(learner,south),8),-next_dir(north2,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,north2),8)']
+None
+belief1 : 
+[('holds(face(learner,south),8)', '-next_dir(north2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+5,"['occurs(shoot(learner,attacker2),9)']",[[]],"['shoot(learner,attacker2)']","[[[], []]]","belief0 : 
+['-occurs(shoot(learner,attacker2),9)']
+None
+"
+6,"['occurs(move(learner,10,14),1)', 'occurs(move(learner,11,14),2)', 'occurs(move(learner,12,14),3)']","[[['holds(in(learner,10,15),1),-next_to(12,14,10,15)'], 'holds(in(learner,12,14),3)', 3]]","['rotate(learner,north_west2)']","[[['holds(face(learner,south),1),-next_dir(north_west2,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,north_west2),1)']
+None
+belief1 : 
+[('holds(face(learner,south),1)', '-next_dir(north_west2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+6,"['occurs(move(learner,10,14),1)', 'occurs(move(learner,11,14),2)', 'occurs(move(learner,12,14),3)']","[[['holds(in(learner,10,15),1),-next_to(12,14,10,15)'], 'holds(in(learner,12,14),3)', 3], [['holds(in(learner,10,14),2),-next_to(12,14,10,14)'], 'holds(in(learner,12,14),3)', 3]]","['rotate(learner,north_west2)', 'shoot(learner,attacker2)']","[[['holds(face(learner,south),1),-next_dir(north_west2,north_east)']], [[], ['-holds(in_range(learner,attacker2),2)']]]","belief0 : 
+['-occurs(shoot(learner,attacker2),2)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker2),2)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+6,"['occurs(move(learner,10,14),1)', 'occurs(move(learner,11,14),2)', 'occurs(move(learner,12,14),3)']","[[['holds(in(learner,10,15),1),-next_to(12,14,10,15)'], 'holds(in(learner,12,14),3)', 3], [['holds(in(learner,10,14),2),-next_to(12,14,10,14)'], 'holds(in(learner,12,14),3)', 3], []]","['rotate(learner,north_west2)', 'shoot(learner,attacker2)', 'shoot(learner,attacker1)']","[[['holds(face(learner,south),1),-next_dir(north_west2,north_east)']], [[], ['-holds(in_range(learner,attacker2),2)']], [[], ['-holds(in_range(learner,attacker1),3)']]]","belief0 : 
+['-occurs(shoot(learner,attacker1),3)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker1),3)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+6,"['occurs(move(learner,11,14),4)', 'occurs(move(learner,10,14),5)', 'occurs(move(learner,9,14),6)']","[[['holds(in(learner,11,15),4),-next_to(9,14,11,15)'], 'holds(in(learner,9,14),6)', 6]]","['move(learner,10,2)']","[[[], ['holds(in(learner,11,15),4),-next_to(10,2,11,15)']]]","belief0 : 
+['-occurs(move(learner,10,2),4)']
+None
+"
+6,"['occurs(move(learner,11,14),4)', 'occurs(move(learner,10,14),5)', 'occurs(move(learner,9,14),6)']","[[['holds(in(learner,11,15),4),-next_to(9,14,11,15)'], 'holds(in(learner,9,14),6)', 6], [['holds(in(learner,11,14),5),-next_to(9,14,11,14)'], 'holds(in(learner,9,14),6)', 6]]","['move(learner,10,2)', 'rotate(learner,west)']","[[[], ['holds(in(learner,11,15),4),-next_to(10,2,11,15)']], [['holds(face(learner,south),5),-next_dir(west,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,west),5)']
+None
+belief1 : 
+[('holds(face(learner,south),5)', '-next_dir(west,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+6,"['occurs(move(learner,11,14),4)', 'occurs(move(learner,10,14),5)', 'occurs(move(learner,9,14),6)']","[[['holds(in(learner,11,15),4),-next_to(9,14,11,15)'], 'holds(in(learner,9,14),6)', 6], [['holds(in(learner,11,14),5),-next_to(9,14,11,14)'], 'holds(in(learner,9,14),6)', 6], []]","['move(learner,10,2)', 'rotate(learner,west)', 'move(learner,10,14)']","[[[], ['holds(in(learner,11,15),4),-next_to(10,2,11,15)']], [['holds(face(learner,south),5),-next_dir(west,north_east)']], [['holds(in(learner,10,14),6)'], ['holds(in(learner,10,14),6),-next_to(10,14,10,14)']]]","belief0 : 
+['-occurs(move(learner,10,14),6)']
+None
+belief1 : 
+['holds(in(learner,10,14),6)']
+[['-occurs(move(R,X,Y),I)', 'holds(in(R,X,Y),I)']]
+belief2 : 
+['occurs(move(learner,10,14),5)']
+[['holds(in(R,X,Y),I+1)', 'occurs(move(R,X,Y),I)'], ['holds(in(learner,11,15),0)', ''], ['holds(in(learner,11,15),1)', '']]
+"
+6,"['occurs(move(learner,10,14),7)', 'occurs(move(learner,9,14),8)']","[[['holds(in(learner,11,14),7),-next_to(9,14,11,14)'], 'holds(in(learner,9,14),8)', 8]]","['shoot(learner,attacker2)']","[[[], ['-holds(in_range(learner,attacker2),7)']]]","belief0 : 
+['-occurs(shoot(learner,attacker2),7)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker2),7)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+6,"['occurs(move(learner,10,14),7)', 'occurs(move(learner,9,14),8)']","[[['holds(in(learner,11,14),7),-next_to(9,14,11,14)'], 'holds(in(learner,9,14),8)', 8], []]","['shoot(learner,attacker2)', 'rotate(learner,south_east)']","[[[], ['-holds(in_range(learner,attacker2),7)']], [['holds(face(learner,south),8),-next_dir(south_east,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south_east),8)']
+None
+belief1 : 
+[('holds(face(learner,south),8)', '-next_dir(south_east,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+6,[],[[]],"['move(learner,18,7)']","[[[], ['holds(in(learner,10,13),9),-next_to(18,7,10,13)']]]","belief0 : 
+['-occurs(move(learner,18,7),9)']
+None
+"
+6,[],[[]],"['rotate(learner,south_west1)']","[[['holds(face(learner,south),10),-next_dir(south_west1,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south_west1),10)']
+None
+belief1 : 
+[('holds(face(learner,south),10)', '-next_dir(south_west1,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+6,"['occurs(move(learner,8,13),11)', 'occurs(move(learner,7,13),12)', 'occurs(move(learner,6,13),13)']","[[['holds(in(learner,9,13),11),-next_to(6,13,9,13)'], 'holds(in(learner,6,13),13)', 13]]","['move(learner,7,1)']","[[[], ['holds(in(learner,9,13),11),-next_to(7,1,9,13)']]]","belief0 : 
+['-occurs(move(learner,7,1),11)']
+None
+"
+6,"['occurs(move(learner,8,13),11)', 'occurs(move(learner,7,13),12)', 'occurs(move(learner,6,13),13)']","[[['holds(in(learner,9,13),11),-next_to(6,13,9,13)'], 'holds(in(learner,6,13),13)', 13], [['holds(in(learner,8,13),12),-next_to(6,13,8,13)'], 'holds(in(learner,6,13),13)', 13]]","['move(learner,7,1)', 'move(learner,14,13)']","[[[], ['holds(in(learner,9,13),11),-next_to(7,1,9,13)']], [[], ['holds(in(learner,8,13),12),-next_to(14,13,8,13)']]]","belief0 : 
+['-occurs(move(learner,14,13),12)']
+None
+"
+6,"['occurs(move(learner,8,13),11)', 'occurs(move(learner,7,13),12)', 'occurs(move(learner,6,13),13)']","[[['holds(in(learner,9,13),11),-next_to(6,13,9,13)'], 'holds(in(learner,6,13),13)', 13], [['holds(in(learner,8,13),12),-next_to(6,13,8,13)'], 'holds(in(learner,6,13),13)', 13], []]","['move(learner,7,1)', 'move(learner,14,13)', 'shoot(learner,attacker1)']","[[[], ['holds(in(learner,9,13),11),-next_to(7,1,9,13)']], [[], ['holds(in(learner,8,13),12),-next_to(14,13,8,13)']], [[], ['-holds(in_range(learner,attacker1),13)']]]","belief0 : 
+['-occurs(shoot(learner,attacker1),13)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker1),13)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+7,"['occurs(move(learner,9,14),1)', 'occurs(move(learner,8,14),2)', 'occurs(move(learner,7,14),3)']","[[['holds(in(learner,9,15),1),-next_to(7,14,9,15)'], 'holds(in(learner,7,14),3)', 3]]","['move(learner,9,13)']","[[[], ['holds(in(learner,9,15),1),-next_to(9,13,9,15)']]]","belief0 : 
+['-occurs(move(learner,9,13),1)']
+None
+"
+7,"['occurs(move(learner,9,14),1)', 'occurs(move(learner,8,14),2)', 'occurs(move(learner,7,14),3)']","[[['holds(in(learner,9,15),1),-next_to(7,14,9,15)'], 'holds(in(learner,7,14),3)', 3], [['holds(in(learner,9,14),2),-next_to(7,14,9,14)'], 'holds(in(learner,7,14),3)', 3]]","['move(learner,9,13)', 'shoot(learner,attacker1)']","[[[], ['holds(in(learner,9,15),1),-next_to(9,13,9,15)']], [[], ['-holds(in_range(learner,attacker1),2)']]]","belief0 : 
+['-occurs(shoot(learner,attacker1),2)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker1),2)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+7,"['occurs(move(learner,9,14),1)', 'occurs(move(learner,8,14),2)', 'occurs(move(learner,7,14),3)']","[[['holds(in(learner,9,15),1),-next_to(7,14,9,15)'], 'holds(in(learner,7,14),3)', 3], [['holds(in(learner,9,14),2),-next_to(7,14,9,14)'], 'holds(in(learner,7,14),3)', 3], []]","['move(learner,9,13)', 'shoot(learner,attacker1)', 'shoot(learner,attacker3)']","[[[], ['holds(in(learner,9,15),1),-next_to(9,13,9,15)']], [[], ['-holds(in_range(learner,attacker1),2)']], [[], ['-holds(in_range(learner,attacker3),3)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),3)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),3)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+7,"['occurs(move(learner,7,14),4)', 'occurs(move(learner,6,14),5)', 'occurs(move(learner,5,14),6)']","[[['holds(in(learner,7,15),4),-next_to(5,14,7,15)'], 'holds(in(learner,5,14),6)', 6]]","['move(learner,15,2)']","[[[], ['holds(in(learner,7,15),4),-next_to(15,2,7,15)']]]","belief0 : 
+['-occurs(move(learner,15,2),4)']
+None
+"
+7,"['occurs(move(learner,7,14),4)', 'occurs(move(learner,6,14),5)', 'occurs(move(learner,5,14),6)']","[[['holds(in(learner,7,15),4),-next_to(5,14,7,15)'], 'holds(in(learner,5,14),6)', 6], [['holds(in(learner,7,14),5),-next_to(5,14,7,14)'], 'holds(in(learner,5,14),6)', 6]]","['move(learner,15,2)', 'rotate(learner,south1)']","[[[], ['holds(in(learner,7,15),4),-next_to(15,2,7,15)']], [['holds(face(learner,south),5),-next_dir(south1,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south1),5)']
+None
+belief1 : 
+[('holds(face(learner,south),5)', '-next_dir(south1,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+7,"['occurs(move(learner,7,14),4)', 'occurs(move(learner,6,14),5)', 'occurs(move(learner,5,14),6)']","[[['holds(in(learner,7,15),4),-next_to(5,14,7,15)'], 'holds(in(learner,5,14),6)', 6], [['holds(in(learner,7,14),5),-next_to(5,14,7,14)'], 'holds(in(learner,5,14),6)', 6], []]","['move(learner,15,2)', 'rotate(learner,south1)', 'move(learner,9,1)']","[[[], ['holds(in(learner,7,15),4),-next_to(15,2,7,15)']], [['holds(face(learner,south),5),-next_dir(south1,north_east)']], [[], ['holds(in(learner,6,14),6),-next_to(9,1,6,14)']]]","belief0 : 
+['-occurs(move(learner,9,1),6)']
+None
+"
+7,[],[[]],"['rotate(learner,south_east)']","[[['holds(face(learner,south),7),-next_dir(south_east,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south_east),7)']
+None
+belief1 : 
+[('holds(face(learner,south),7)', '-next_dir(south_east,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+7,"['occurs(shoot(learner,attacker2),8)']",[[]],"['move(learner,8,11)']","[[[], ['holds(in(learner,5,13),8),-next_to(8,11,5,13)']]]","belief0 : 
+['-occurs(move(learner,8,11),8)']
+None
+"
+7,"['occurs(shoot(learner,attacker2),9)']",[[]],"['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),9)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),9)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),9)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+7,"['occurs(move(learner,5,13),10)', 'occurs(shoot(learner,attacker1),11)']","[[['-holds(in_range(learner,attacker1),10)'], 'holds(agent_shot(attacker1),11)', 11]]","['move(learner,15,9)']","[[[], ['holds(in(learner,4,13),10),-next_to(15,9,4,13)']]]","belief0 : 
+['-occurs(move(learner,15,9),10)']
+None
+"
+7,"['occurs(move(learner,5,13),10)', 'occurs(shoot(learner,attacker1),11)']","[[['-holds(in_range(learner,attacker1),10)'], 'holds(agent_shot(attacker1),11)', 11], []]","['move(learner,15,9)', 'rotate(learner,north_east2)']","[[[], ['holds(in(learner,4,13),10),-next_to(15,9,4,13)']], [['holds(face(learner,south),11),-next_dir(north_east2,south)']]]","belief0 : 
+['-occurs(rotate(learner,north_east2),11)']
+None
+belief1 : 
+[('holds(face(learner,south),11)', '-next_dir(north_east2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+7,"['occurs(move(learner,6,13),12)', 'occurs(move(learner,7,13),13)', 'occurs(shoot(learner,attacker1),14)']","[[['-holds(in_range(learner,attacker1),12)'], 'holds(agent_shot(attacker1),14)', 14]]","['rotate(learner,south_east1)']","[[['holds(face(learner,south),12),-next_dir(south_east1,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south_east1),12)']
+None
+belief1 : 
+[('holds(face(learner,south),12)', '-next_dir(south_east1,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+7,"['occurs(move(learner,6,13),12)', 'occurs(move(learner,7,13),13)', 'occurs(shoot(learner,attacker1),14)']","[[['-holds(in_range(learner,attacker1),12)'], 'holds(agent_shot(attacker1),14)', 14], [['-holds(in_range(learner,attacker1),13)'], 'holds(agent_shot(attacker1),14)', 14]]","['rotate(learner,south_east1)', 'move(learner,2,11)']","[[['holds(face(learner,south),12),-next_dir(south_east1,north_east)']], [[], ['holds(in(learner,6,13),13),-next_to(2,11,6,13)']]]","belief0 : 
+['-occurs(move(learner,2,11),13)']
+None
+"
+7,"['occurs(move(learner,6,13),12)', 'occurs(move(learner,7,13),13)', 'occurs(shoot(learner,attacker1),14)']","[[['-holds(in_range(learner,attacker1),12)'], 'holds(agent_shot(attacker1),14)', 14], [['-holds(in_range(learner,attacker1),13)'], 'holds(agent_shot(attacker1),14)', 14], []]","['rotate(learner,south_east1)', 'move(learner,2,11)', 'shoot(learner,attacker3)']","[[['holds(face(learner,south),12),-next_dir(south_east1,north_east)']], [[], ['holds(in(learner,6,13),13),-next_to(2,11,6,13)']], [[], ['-holds(in_range(learner,attacker3),14)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),14)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),14)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+7,[],[[]],"['move(learner,2,4)']","[[[], []]]","belief0 : 
+['-occurs(move(learner,2,4),15)']
+None
+"
+7,[],[[]],"['shoot(learner,attacker3)']","[[[], []]]","belief0 : 
+['-occurs(shoot(learner,attacker3),16)']
+None
+"
+7,[],[[]],"['shoot(learner,attacker1)']","[[[], []]]","belief0 : 
+['-occurs(shoot(learner,attacker1),17)']
+None
+"
+8,"['occurs(move(learner,10,14),1)', 'occurs(move(learner,9,14),2)', 'occurs(move(learner,8,14),3)']","[[['holds(in(learner,10,15),1),-next_to(8,14,10,15)'], 'holds(in(learner,8,14),3)', 3]]","['move(learner,17,15)']","[[[], ['holds(in(learner,10,15),1),-next_to(17,15,10,15)']]]","belief0 : 
+['-occurs(move(learner,17,15),1)']
+None
+"
+8,"['occurs(move(learner,10,14),1)', 'occurs(move(learner,9,14),2)', 'occurs(move(learner,8,14),3)']","[[['holds(in(learner,10,15),1),-next_to(8,14,10,15)'], 'holds(in(learner,8,14),3)', 3], [['holds(in(learner,10,14),2),-next_to(8,14,10,14)'], 'holds(in(learner,8,14),3)', 3]]","['move(learner,17,15)', 'rotate(learner,west1)']","[[[], ['holds(in(learner,10,15),1),-next_to(17,15,10,15)']], [['holds(face(learner,south),2),-next_dir(west1,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,west1),2)']
+None
+belief1 : 
+[('holds(face(learner,south),2)', '-next_dir(west1,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+8,"['occurs(move(learner,10,14),1)', 'occurs(move(learner,9,14),2)', 'occurs(move(learner,8,14),3)']","[[['holds(in(learner,10,15),1),-next_to(8,14,10,15)'], 'holds(in(learner,8,14),3)', 3], [['holds(in(learner,10,14),2),-next_to(8,14,10,14)'], 'holds(in(learner,8,14),3)', 3], []]","['move(learner,17,15)', 'rotate(learner,west1)', 'move(learner,10,2)']","[[[], ['holds(in(learner,10,15),1),-next_to(17,15,10,15)']], [['holds(face(learner,south),2),-next_dir(west1,north_east)']], [[], ['holds(in(learner,9,14),3),-next_to(10,2,9,14)']]]","belief0 : 
+['-occurs(move(learner,10,2),3)']
+None
+"
+8,"['occurs(move(learner,9,14),4)', 'occurs(move(learner,10,14),5)', 'occurs(move(learner,11,14),6)']","[[['holds(in(learner,9,15),4),-next_to(11,14,9,15)'], 'holds(in(learner,11,14),6)', 6]]","['rotate(learner,west1)']","[[['holds(face(learner,south),4),-next_dir(west1,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,west1),4)']
+None
+belief1 : 
+[('holds(face(learner,south),4)', '-next_dir(west1,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+8,"['occurs(move(learner,9,14),4)', 'occurs(move(learner,10,14),5)', 'occurs(move(learner,11,14),6)']","[[['holds(in(learner,9,15),4),-next_to(11,14,9,15)'], 'holds(in(learner,11,14),6)', 6], [['holds(in(learner,9,14),5),-next_to(11,14,9,14)'], 'holds(in(learner,11,14),6)', 6]]","['rotate(learner,west1)', 'rotate(learner,south2)']","[[['holds(face(learner,south),4),-next_dir(west1,north_east)']], [['holds(face(learner,south),5),-next_dir(south2,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south2),5)']
+None
+belief1 : 
+[('holds(face(learner,south),5)', '-next_dir(south2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+8,"['occurs(move(learner,9,14),4)', 'occurs(move(learner,10,14),5)', 'occurs(move(learner,11,14),6)']","[[['holds(in(learner,9,15),4),-next_to(11,14,9,15)'], 'holds(in(learner,11,14),6)', 6], [['holds(in(learner,9,14),5),-next_to(11,14,9,14)'], 'holds(in(learner,11,14),6)', 6], []]","['rotate(learner,west1)', 'rotate(learner,south2)', 'move(learner,18,0)']","[[['holds(face(learner,south),4),-next_dir(west1,north_east)']], [['holds(face(learner,south),5),-next_dir(south2,north_east)']], [[], ['holds(in(learner,10,14),6),-next_to(18,0,10,14)']]]","belief0 : 
+['-occurs(move(learner,18,0),6)']
+None
+"
+8,[],[[]],"['rotate(learner,north_west2)']","[[['holds(face(learner,south),7),-next_dir(north_west2,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,north_west2),7)']
+None
+belief1 : 
+[('holds(face(learner,south),7)', '-next_dir(north_west2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+8,"['occurs(shoot(learner,attacker1),8)']",[[]],"['rotate(learner,south_west2)']","[[['holds(face(learner,south),8),-next_dir(south_west2,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,south_west2),8)']
+None
+belief1 : 
+[('holds(face(learner,south),8)', '-next_dir(south_west2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+8,"['occurs(shoot(learner,attacker1),9)']",[[]],"['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),9)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),9)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),9)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+9,"['occurs(move(learner,8,14),1)', 'occurs(move(learner,7,14),2)', 'occurs(move(learner,6,14),3)']","[[['holds(in(learner,9,14),1),-next_to(6,14,9,14)'], 'holds(in(learner,6,14),3)', 3]]","['rotate(learner,east2)']","[[['holds(face(learner,south),1),-next_dir(east2,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,east2),1)']
+None
+belief1 : 
+[('holds(face(learner,south),1)', '-next_dir(east2,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+9,"['occurs(move(learner,8,14),1)', 'occurs(move(learner,7,14),2)', 'occurs(move(learner,6,14),3)']","[[['holds(in(learner,9,14),1),-next_to(6,14,9,14)'], 'holds(in(learner,6,14),3)', 3], [['holds(in(learner,8,14),2),-next_to(6,14,8,14)'], 'holds(in(learner,6,14),3)', 3]]","['rotate(learner,east2)', 'move(learner,16,14)']","[[['holds(face(learner,south),1),-next_dir(east2,north_east)']], [[], ['holds(in(learner,8,14),2),-next_to(16,14,8,14)']]]","belief0 : 
+['-occurs(move(learner,16,14),2)']
+None
+"
+9,"['occurs(move(learner,8,14),1)', 'occurs(move(learner,7,14),2)', 'occurs(move(learner,6,14),3)']","[[['holds(in(learner,9,14),1),-next_to(6,14,9,14)'], 'holds(in(learner,6,14),3)', 3], [['holds(in(learner,8,14),2),-next_to(6,14,8,14)'], 'holds(in(learner,6,14),3)', 3], []]","['rotate(learner,east2)', 'move(learner,16,14)', 'move(learner,5,3)']","[[['holds(face(learner,south),1),-next_dir(east2,north_east)']], [[], ['holds(in(learner,8,14),2),-next_to(16,14,8,14)']], [[], ['holds(in(learner,7,14),3),-next_to(5,3,7,14)']]]","belief0 : 
+['-occurs(move(learner,5,3),3)']
+None
+"
+9,"['occurs(move(learner,5,13),4)', 'occurs(move(learner,4,13),5)']","[[['holds(in(learner,6,13),4),-next_to(4,13,6,13)'], 'holds(in(learner,4,13),5)', 5]]","['move(learner,14,15)']","[[[], ['holds(in(learner,6,13),4),-next_to(14,15,6,13)']]]","belief0 : 
+['-occurs(move(learner,14,15),4)']
+None
+"
+9,"['occurs(move(learner,5,13),4)', 'occurs(move(learner,4,13),5)']","[[['holds(in(learner,6,13),4),-next_to(4,13,6,13)'], 'holds(in(learner,4,13),5)', 5], []]","['move(learner,14,15)', 'rotate(learner,north_east)']","[[[], ['holds(in(learner,6,13),4),-next_to(14,15,6,13)']], [['holds(face(learner,south),5),-next_dir(north_east,north_east)']]]","belief0 : 
+['-occurs(rotate(learner,north_east),5)']
+None
+belief1 : 
+[('holds(face(learner,south),5)', '-next_dir(north_east,south)')]
+[['-occurs(rotate(R,D1),I)', 'holds(face(R,D2),I),-next_dir(D1,D2)']]
+belief2 : 
+[]
+[['holds(face(learner,south),0)', ''], ['holds(face(learner,south),1)', '']]
+"
+9,[],[[]],"['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),6)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),6)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),6)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+9,[],[[]],"['shoot(learner,attacker3)']","[[[], ['-holds(in_range(learner,attacker3),7)']]]","belief0 : 
+['-occurs(shoot(learner,attacker3),7)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker3),7)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+9,"['occurs(shoot(learner,attacker2),8)']",[[]],"['shoot(learner,attacker1)']","[[[], ['-holds(in_range(learner,attacker1),8)']]]","belief0 : 
+['-occurs(shoot(learner,attacker1),8)']
+None
+belief1 : 
+['-holds(in_range(learner,attacker1),8)']
+[['-occurs(shoot(R,A),I)', '-holds(in_range(R,A),I)']]
+"
+9,[],[[]],"['move(learner,7,9)']","[[[], []]]","belief0 : 
+['-occurs(move(learner,7,9),9)']
+None
+"
+9,[],[[]],"['shoot(learner,attacker2)']","[[[], []]]","belief0 : 
+['-occurs(shoot(learner,attacker2),10)']
+None
+"
