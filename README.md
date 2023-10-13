@@ -17,4 +17,4 @@ We demonstrated that the learning system could learn a causal law about the envi
 ![](QnA.png)
 
 ## Reference
-Dodampegama, H. and Sridharan, M. (2023) Knowledge-based reasoning and learning under partial observability in ad hoc teamwork. Theory and Practice of Logic Programming, pp. 1–19
+Dodampegama, H. and Sridharan, M. (2023) Knowledge-based reasoning and learning under partial observability in ad hoc teamwork. Theory and Practice of Logic Programming, pp. 1–19.
