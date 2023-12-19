@@ -2,7 +2,7 @@
 Repository for MSc project: Explanation and Axiom Learning for Ad Hoc Teamwork. 
 For a detailed report of this project, see the thesis linked [here](https://drive.google.com/file/d/1DNTGtDMFa1xbxG65BY_Vduoroh-ChRxH/view).
 
-Knowledge-based ad hoc teamwork (KAT) [(Hasra and Sridharan, 2023)](https://www.cs.bham.ac.uk/~sridharm/Papers/tplp23_ahtPartialObsComm.pdf) is an architecture to tackle the challenges of ad hoc or impromptu robot collaboration, i.e., teamwork with no prior coordination between decentralised and (possibly) heterogeneous robots. The original KAT implementation can be found [here](https://github.com/hharithaki/KAT/tree/main/Code/FA). We implement KAT in a Fort Attack scenario where three attacker attack a fort defended by three defenders. The ego agent is one of the defenders.
+Knowledge-based ad hoc teamwork (KAT) [(Hasra and Sridharan, 2023)](https://www.cs.bham.ac.uk/~sridharm/Papers/tplp23_ahtPartialObsComm.pdf) is an architecture to tackle the challenges of ad hoc or impromptu robot collaboration, i.e., teamwork with no prior coordination between decentralised and (possibly) heterogeneous robots. The original KAT implementation can be found [here](https://github.com/hharithaki/KAT/tree/main/Code/FA). We implement KAT in a Fort Attack scenario where three attackers attack a fort defended by three defenders. The ego agent is one of the defenders.
 
 ![](KAT-arch.png)
 ![](FortAttack.png)
